@@ -522,7 +522,7 @@
 									class:notable={node.id.startsWith('N')}
 									class:keystone={node.id.startsWith('K')}
 									class:small={node.id.startsWith('S')}
-									class:unidentified={nodesDesc[node.id].name === node.id}
+									class:unidentified={nodesDesc[node.id]?.name === node.id}
 									class:search-result={searchResults.includes(node.id)}
 									class:selected={selectedNodes.includes(node.id)}
 									class:highlighted-keystone={highlightKeystones && node.id.startsWith('K')}
