@@ -438,8 +438,10 @@
     "stats": []
   },
   "N57": {
-    "name": "N57",
-    "stats": []
+    "name": "破碎的水晶",
+    "stats": [
+      "冰晶生命值降低60%"
+    ]
   },
   "N58": {
     "name": "可靠的守护",
@@ -487,8 +489,11 @@
     "stats": []
   },
   "N68": {
-    "name": "N68",
-    "stats": []
+    "name": "瞬息爆发",
+    "stats": [
+      "法术暴击几率增加16%",
+      "若近期内已造成暴击，则施法速度提升8%"
+    ]
   },
   "N69": {
     "name": "N69",
@@ -961,10 +966,10 @@
     "stats": []
   },
   "N168": {
-    "name": "震耳欲聋的呼喊",
+    "name": "震天怒吼",
     "stats": [
-      "战吼冷却恢复速度增加25%",
-      "近期内每次使用战吼后，伤害增加8%"
+      "战吼冷却恢复速度提高25%",
+      "每次近期内使用战吼，伤害提高8%"
     ]
   },
   "N169": {
@@ -990,8 +995,11 @@
     ]
   },
   "N173": {
-    "name": "N173",
-    "stats": []
+    "name": "混沌熵流",
+    "stats": [
+      "混沌伤害提高18%",
+      "技能效果持续时间增加15%"
+    ]
   },
   "N174": {
     "name": "缓冲护盾",
@@ -1681,7 +1689,7 @@
     ]
   },
   "N302": {
-    "name": "低容忍度",
+    "name": "低耐性",
     "stats": [
       "对未中毒的敌人，毒素效果增加60%"
     ]
@@ -1783,8 +1791,10 @@
     ]
   },
   "N320": {
-    "name": "N320",
-    "stats": []
+    "name": "反击",
+    "stats": [
+      "将受到的75%伤害反射给近战攻击者"
+    ]
   },
   "N321": {
     "name": "逆转剧本",
@@ -1997,14 +2007,14 @@
     "stats": []
   },
   "N360": {
-    "name": "巨人的决心",
+    "name": "泰坦的决心",
     "stats": [
       "晕眩门槛提高25%",
       "移动时每秒回复1.5%的生命"
     ]
   },
   "N361": {
-    "name": "战斗硬化",
+    "name": "硬汉",
     "stats": [
       "对你的击中暴击伤害降低20%",
       "护甲和闪避等级提高20%",
@@ -2042,14 +2052,14 @@
     ]
   },
   "N367": {
-    "name": "无荣耀",
+    "name": "无耻之徒",
     "stats": [
       "如果你近期内用近战攻击命中过敌人，护甲提高25%",
       "对定身的敌人近战伤害提高50%"
     ]
   },
   "N368": {
-    "name": "无痛感",
+    "name": "无痛之身",
     "stats": [
       "护甲和闪避等级提高20%",
       "晕眩门槛提高20%"
@@ -2081,14 +2091,16 @@
     ]
   },
   "N373": {
-    "name": "重弹药",
+    "name": "重型弹丸",
     "stats": [
       "晕眩积累提高15%"
     ]
   },
   "N374": {
-    "name": "N374",
-    "stats": []
+    "name": "群体狂乱",
+    "stats": [
+      "你的存在使周围盟友的攻击速度提高6%"
+    ]
   },
   "N375": {
     "name": "无情",
@@ -2301,7 +2313,7 @@
     ]
   },
   "N411": {
-    "name": "远离死亡",
+    "name": "超距死亡",
     "stats": [
       "对超过6米距离的敌人，投射物的暴击几率提高25%",
       "对超过6米距离的敌人，投射物的伤害提高25%"
@@ -2570,8 +2582,10 @@
     "stats": []
   },
   "N463": {
-    "name": "N463",
-    "stats": []
+    "name": "复仇",
+    "stats": [
+      "60%的受到伤害反射给近战攻击者"
+    ]
   },
   "N464": {
     "name": "N464",
@@ -2792,8 +2806,10 @@
     ]
   },
   "N508": {
-    "name": "N508",
-    "stats": []
+    "name": "双管齐下",
+    "stats": [
+      "仆从的伤害提高25%"
+    ]
   },
   "N509": {
     "name": "N509",
@@ -3085,7 +3101,7 @@
     ]
   },
   "N562": {
-    "name": "再利用弹药",
+    "name": "节省弹药",
     "stats": [
       "弩的攻击有25%的几率不消耗箭矢"
     ]
@@ -3238,8 +3254,10 @@
     "stats": []
   },
   "S7": {
-    "name": "S7",
-    "stats": []
+    "name": "Cold Damage",
+    "stats": [
+      "12% increased Cold Damage"
+    ]
   },
   "S8": {
     "name": "S8",
@@ -3276,8 +3294,10 @@
     ]
   },
   "S16": {
-    "name": "S16",
-    "stats": []
+    "name": "Cold Damage",
+    "stats": [
+      "12% increased Cold Damage"
+    ]
   },
   "S17": {
     "name": "闪电伤害",
@@ -3376,8 +3396,10 @@
     ]
   },
   "S38": {
-    "name": "S38",
-    "stats": []
+    "name": "Cold Damage",
+    "stats": [
+      "12% increased Cold Damage"
+    ]
   },
   "S39": {
     "name": "S39",
@@ -3704,8 +3726,10 @@
     ]
   },
   "S114": {
-    "name": "S114",
-    "stats": []
+    "name": "诅咒效应",
+    "stats": [
+      "你的诅咒效果增强6%"
+    ]
   },
   "S115": {
     "name": "S115",
@@ -4244,8 +4268,10 @@
     "stats": []
   },
   "S236": {
-    "name": "S236",
-    "stats": []
+    "name": "Physical Damage",
+    "stats": [
+      "10% increased Physical Damage"
+    ]
   },
   "S237": {
     "name": "混沌伤害",
@@ -4734,16 +4760,20 @@
     "stats": []
   },
   "S352": {
-    "name": "S352",
-    "stats": []
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S353": {
     "name": "S353",
     "stats": []
   },
   "S354": {
-    "name": "S354",
-    "stats": []
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S355": {
     "name": "S355",
@@ -4774,12 +4804,16 @@
     "stats": []
   },
   "S362": {
-    "name": "S362",
-    "stats": []
+    "name": "仆从攻击与施法速度",
+    "stats": [
+      "仆从的攻击与施法速度提高4%"
+    ]
   },
   "S363": {
-    "name": "S363",
-    "stats": []
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S364": {
     "name": "S364",
@@ -4802,12 +4836,15 @@
     "stats": []
   },
   "S369": {
-    "name": "S369",
-    "stats": []
+    "name": "仆从攻击与施法速度",
+    "stats": [
+      "仆从的攻击与施法速度提高4%"
+    ]
   },
+
   "S370": {
-    "name": "S370",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S371": {
     "name": "S371",
@@ -4822,8 +4859,8 @@
     "stats": []
   },
   "S374": {
-    "name": "S374",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S375": {
     "name": "S375",
@@ -4866,8 +4903,8 @@
     "stats": []
   },
   "S385": {
-    "name": "S385",
-    "stats": []
+    "name": "Minion Attack and Cast Speed",
+    "stats": ["Minions have 4% increased Attack and Cast Speed"]
   },
   "S386": {
     "name": "S386",
@@ -4878,8 +4915,10 @@
     "stats": []
   },
   "S388": {
-    "name": "S388",
-    "stats": []
+    "name": "Lightning Penetration",
+    "stats": [
+      "Damage Penetrates 6% Lightning Resistance"
+    ]
   },
   "S389": {
     "name": "S389",
@@ -4914,8 +4953,10 @@
     "stats": []
   },
   "S397": {
-    "name": "S397",
-    "stats": []
+    "name": "Lightning Penetration",
+    "stats": [
+      "Damage Penetrates 6% Lightning Resistance"
+    ]
   },
   "S398": {
     "name": "S398",
@@ -4966,24 +5007,26 @@
     "stats": []
   },
   "S410": {
-    "name": "S410",
-    "stats": []
+    "name": "Cold Penetration",
+    "stats": ["Damage Penetrates 4% Cold Resistance"]
   },
   "S411": {
-    "name": "S411",
-    "stats": []
+    "name": "Cold Penetration",
+    "stats": [
+      "Damage Penetrates 6% Cold Resistance"
+    ]
   },
   "S412": {
-    "name": "S412",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S413": {
-    "name": "S413",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S414": {
-    "name": "S414",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S415": {
     "name": "S415",
@@ -5038,24 +5081,24 @@
     "stats": []
   },
   "S428": {
-    "name": "S428",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S429": {
     "name": "S429",
     "stats": []
   },
   "S430": {
-    "name": "S430",
-    "stats": []
+    "name": "Fire Penetration",
+    "stats": ["Damage Penetrates 4% Fire Resistance"]
   },
   "S431": {
-    "name": "S431",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S432": {
-    "name": "S432",
-    "stats": []
+    "name": "Damage against Ailments",
+    "stats": ["10% increased Damage with Hits against Enemies affected by Elemental Ailments"]
   },
   "S433": {
     "name": "S433",
@@ -5078,8 +5121,10 @@
     "stats": []
   },
   "S438": {
-    "name": "S438",
-    "stats": []
+    "name": "Fire Penetration",
+    "stats": [
+      "Damage Penetrates 6% Fire Resistance"
+    ]
   },
   "S439": {
     "name": "S439",
@@ -5114,12 +5159,12 @@
     "stats": []
   },
   "S447": {
-    "name": "S447",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S448": {
-    "name": "S448",
-    "stats": []
+    "name": "Damage against Ailments",
+    "stats": ["10% increased Damage with Hits against Enemies affected by Elemental Ailments"]
   },
   "S449": {
     "name": "S449",
@@ -5150,8 +5195,8 @@
     "stats": []
   },
   "S456": {
-    "name": "S456",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S457": {
     "name": "S457",
@@ -5170,8 +5215,8 @@
     "stats": []
   },
   "S461": {
-    "name": "S461",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S462": {
     "name": "S462",
@@ -5214,16 +5259,16 @@
     "stats": []
   },
   "S472": {
-    "name": "S472",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S473": {
-    "name": "S473",
-    "stats": []
+    "name": "Spell Critical Damage",
+    "stats": ["10% increased Critical Spell Damage Bonus"]
   },
   "S474": {
-    "name": "S474",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S475": {
     "name": "S475",
@@ -5238,52 +5283,52 @@
     "stats": []
   },
   "S478": {
-    "name": "S478",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S479": {
-    "name": "S479",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S480": {
     "name": "S480",
     "stats": []
   },
   "S481": {
-    "name": "S481",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S482": {
     "name": "S482",
     "stats": []
   },
   "S483": {
-    "name": "S483",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S484": {
-    "name": "S484",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S485": {
-    "name": "S485",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S486": {
-    "name": "S486",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S487": {
-    "name": "S487",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S488": {
     "name": "S488",
     "stats": []
   },
   "S489": {
-    "name": "S489",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S490": {
     "name": "S490",
@@ -5326,8 +5371,8 @@
     "stats": []
   },
   "S500": {
-    "name": "S500",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S501": {
     "name": "S501",
@@ -5342,24 +5387,26 @@
     "stats": []
   },
   "S504": {
-    "name": "S504",
-    "stats": []
+    "name": "Link Cast Speed",
+    "stats": [
+      "Link Skills have 8% increased Cast Speed"
+    ]
   },
   "S505": {
     "name": "S505",
     "stats": []
   },
   "S506": {
-    "name": "S506",
-    "stats": []
+    "name": "Spell Critical Chance",
+    "stats": ["8% increased Critical Hit Chance for Spells"]
   },
   "S507": {
-    "name": "S507",
-    "stats": []
+    "name": "Spell Critical Damage",
+    "stats": ["10% increased Critical Spell Damage Bonus"]
   },
   "S508": {
-    "name": "S508",
-    "stats": []
+    "name": "Energy Shield",
+    "stats": ["10% increased Energy Shield"]
   },
   "S509": {
     "name": "S509",
@@ -5378,8 +5425,8 @@
     "stats": []
   },
   "S513": {
-    "name": "S513",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S514": {
     "name": "S514",
@@ -5414,8 +5461,8 @@
     "stats": []
   },
   "S522": {
-    "name": "S522",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S523": {
     "name": "S523",
@@ -5438,8 +5485,8 @@
     "stats": []
   },
   "S528": {
-    "name": "S528",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S529": {
     "name": "S529",
@@ -5450,12 +5497,12 @@
     "stats": []
   },
   "S531": {
-    "name": "S531",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S532": {
-    "name": "S532",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S533": {
     "name": "S533",
@@ -5510,8 +5557,8 @@
     "stats": []
   },
   "S546": {
-    "name": "S546",
-    "stats": []
+    "name": "Energy Shield",
+    "stats": ["10% increased Energy Shield"]
   },
   "S547": {
     "name": "S547",
@@ -5538,8 +5585,8 @@
     "stats": []
   },
   "S553": {
-    "name": "S553",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S554": {
     "name": "S554",
@@ -5574,8 +5621,8 @@
     "stats": []
   },
   "S562": {
-    "name": "S562",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S563": {
     "name": "S563",
@@ -5590,8 +5637,8 @@
     "stats": []
   },
   "S566": {
-    "name": "S566",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S567": {
     "name": "S567",
@@ -5614,8 +5661,8 @@
     "stats": []
   },
   "S572": {
-    "name": "S572",
-    "stats": []
+    "name": "Physical Damage",
+    "stats": ["10% increased Physical Damage"]
   },
   "S573": {
     "name": "S573",
@@ -5646,8 +5693,8 @@
     "stats": []
   },
   "S580": {
-    "name": "S580",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S581": {
     "name": "S581",
@@ -5690,20 +5737,25 @@
     "stats": []
   },
   "S591": {
-    "name": "S591",
-    "stats": []
+    "name": "EnergyShield and Armour",
+    "stats": [
+        "8% increased Armour",
+        "8% increased maximum Energy Shield"
+    ]
   },
   "S592": {
-    "name": "S592",
-    "stats": []
+    "name": "Minion Damage",
+    "stats": [
+      "Minions deal 10% increased Damage"
+    ]
   },
   "S593": {
     "name": "S593",
     "stats": []
   },
   "S594": {
-    "name": "S594",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S595": {
     "name": "S595",
@@ -5718,32 +5770,34 @@
     "stats": []
   },
   "S598": {
-    "name": "S598",
-    "stats": []
+    "name": "Life on Kill",
+    "stats": [
+	    "Recpver 1% Life on Kill"
+    ]
   },
   "S599": {
     "name": "S599",
     "stats": []
   },
   "S600": {
-    "name": "S600",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S601": {
     "name": "S601",
     "stats": []
   },
   "S602": {
-    "name": "S602",
-    "stats": []
+    "name": "Chaos Damage",
+    "stats": ["10% increased Chaos Damage"]
   },
   "S603": {
     "name": "S603",
     "stats": []
   },
   "S604": {
-    "name": "S604",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S605": {
     "name": "S605",
@@ -5766,16 +5820,16 @@
     "stats": []
   },
   "S610": {
-    "name": "S610",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S611": {
     "name": "S611",
     "stats": []
   },
   "S612": {
-    "name": "S612",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S613": {
     "name": "S613",
@@ -5786,8 +5840,11 @@
     "stats": []
   },
   "S615": {
-    "name": "S615",
-    "stats": []
+    "name": "Spell and Minion Damage",
+    "stats": [
+        "8% increased Spell Damage",
+        "Minions deal 8% increased Damage"
+    ]
   },
   "S616": {
     "name": "S616",
@@ -5798,16 +5855,16 @@
     "stats": []
   },
   "S618": {
-    "name": "S618",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S619": {
-    "name": "S619",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S620": {
-    "name": "S620",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S621": {
     "name": "S621",
@@ -5826,8 +5883,8 @@
     "stats": []
   },
   "S625": {
-    "name": "S625",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S626": {
     "name": "S626",
@@ -5862,8 +5919,8 @@
     "stats": []
   },
   "S634": {
-    "name": "S634",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S635": {
     "name": "S635",
@@ -5930,36 +5987,36 @@
     "stats": []
   },
   "S651": {
-    "name": "S651",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S652": {
-    "name": "S652",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S653": {
-    "name": "S653",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S654": {
-    "name": "S654",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S655": {
     "name": "S655",
     "stats": []
   },
   "S656": {
-    "name": "S656",
-    "stats": []
+    "name": "Mana Regeneration",
+    "stats": ["10% increased Mana Regeneration Rate"]
   },
   "S657": {
     "name": "S657",
     "stats": []
   },
   "S658": {
-    "name": "S658",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S659": {
     "name": "S659",
@@ -5978,8 +6035,8 @@
     "stats": []
   },
   "S663": {
-    "name": "S663",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S664": {
     "name": "S664",
@@ -5990,12 +6047,12 @@
     "stats": []
   },
   "S666": {
-    "name": "S666",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S667": {
-    "name": "S667",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S668": {
     "name": "S668",
@@ -6006,56 +6063,62 @@
     "stats": []
   },
   "S670": {
-    "name": "S670",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S671": {
     "name": "S671",
     "stats": []
   },
   "S672": {
-    "name": "S672",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S673": {
-    "name": "S673",
-    "stats": []
+    "name": "Mana Regeneration",
+    "stats": [
+      "10% increased Mana Regeneration Rate"
+    ]
   },
   "S674": {
-    "name": "S674",
-    "stats": []
+    "name": "Mana",
+    "stats": ["8% increased maximum Mana"]
   },
   "S675": {
-    "name": "S675",
-    "stats": []
+    "name": "Attack Damage",
+    "stats": [
+	    "10% increased Attack Damage"
+    ]
   },
   "S676": {
     "name": "S676",
     "stats": []
   },
   "S677": {
-    "name": "S677",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S678": {
-    "name": "S678",
-    "stats": []
+    "name": "Energy Shield Delay",
+    "stats": ["10% faster start of Energy Shield recharge"]
   },
   "S679": {
-    "name": "S679",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S680": {
     "name": "S680",
     "stats": []
   },
   "S681": {
-    "name": "S681",
-    "stats": []
+    "name": "Spell Damage",
+    "stats": [
+      "8% increased Spell Damage"
+    ]
   },
   "S682": {
-    "name": "S682",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S683": {
     "name": "S683",
@@ -6066,12 +6129,12 @@
     "stats": []
   },
   "S685": {
-    "name": "S685",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S686": {
-    "name": "S686",
-    "stats": []
+    "name": "Minion Life",
+    "stats": ["Minions have 10% increased maximum Life"]
   },
   "S687": {
     "name": "S687",
@@ -6090,20 +6153,24 @@
     "stats": []
   },
   "S691": {
-    "name": "S691",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S692": {
-    "name": "S692",
-    "stats": []
+    "name": "Spell Damage/Spell and Minion Damage",
+    "stats": [
+      "8% increased Spell Damage (Sorceress)",
+      "5% increased Spell Damage (Witch)",
+      "Minions deal 5% increased Damage (Witch)"
+    ]
   },
   "S693": {
-    "name": "S693",
-    "stats": []
+    "name": "Energy Shield Delay",
+    "stats": ["10% faster start of Energy Shield Recharge"]
   },
   "S694": {
-    "name": "S694",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S695": {
     "name": "S695",
@@ -6126,8 +6193,8 @@
     "stats": []
   },
   "S700": {
-    "name": "S700",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S701": {
     "name": "S701",
@@ -6142,12 +6209,12 @@
     "stats": []
   },
   "S704": {
-    "name": "S704",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S705": {
-    "name": "S705",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S706": {
     "name": "S706",
@@ -6158,36 +6225,42 @@
     "stats": []
   },
   "S708": {
-    "name": "S708",
-    "stats": []
+    "name": "Attack Speed",
+    "stats": [
+	    "3% increased Attack speed"
+    ]
   },
   "S709": {
-    "name": "S709",
-    "stats": []
+    "name": "Spell Damage/Spell and Minion Damage",
+    "stats": [
+      "8% increased Spell Damage (Sorceress)",
+      "5% increased Spell Damage (Witch)",
+      "Minions deal 5% increased Damage (Witch)"
+    ]
   },
   "S710": {
-    "name": "S710",
-    "stats": []
+    "name": "Energy Shield",
+    "stats": ["+10 to maximum Energy Shield"]
   },
   "S711": {
-    "name": "S711",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S712": {
     "name": "S712",
     "stats": []
   },
   "S713": {
-    "name": "S713",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S714": {
     "name": "S714",
     "stats": []
   },
   "S715": {
-    "name": "S715",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S716": {
     "name": "S716",
@@ -6214,8 +6287,8 @@
     "stats": []
   },
   "S722": {
-    "name": "S722",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S723": {
     "name": "S723",
@@ -6234,8 +6307,8 @@
     "stats": []
   },
   "S727": {
-    "name": "S727",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S728": {
     "name": "S728",
@@ -6254,20 +6327,22 @@
     "stats": []
   },
   "S732": {
-    "name": "S732",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S733": {
-    "name": "S733",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S734": {
     "name": "S734",
     "stats": []
   },
   "S735": {
-    "name": "S735",
-    "stats": []
+    "name": "Attack Speed",
+    "stats": [
+      "3% increased Attack and Cast Speed"
+    ]
   },
   "S736": {
     "name": "S736",
@@ -6302,8 +6377,10 @@
     "stats": []
   },
   "S744": {
-    "name": "S744",
-    "stats": []
+    "name": "Attack Speed",
+    "stats": [
+      "3% increased Attack and Cast Speed"
+    ]
   },
   "S745": {
     "name": "S745",
@@ -6338,16 +6415,16 @@
     "stats": []
   },
   "S753": {
-    "name": "S753",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S754": {
     "name": "S754",
     "stats": []
   },
   "S755": {
-    "name": "S755",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S756": {
     "name": "S756",
@@ -6402,12 +6479,16 @@
     "stats": []
   },
   "S769": {
-    "name": "S769",
-    "stats": []
+    "name": "Spell Damage/Spell and Minion Damage",
+    "stats": [
+      "8% increased Spell Damage (Sorceress)",
+      "5% increased Spell Damage (Witch)",
+      "Minions deal 5% increased Damage (Witch)"
+    ]
   },
   "S770": {
-    "name": "S770",
-    "stats": []
+    "name": "Energy Shield",
+    "stats": ["+10 to maximum Energy Shield"]
   },
   "S771": {
     "name": "S771",
@@ -6422,8 +6503,8 @@
     "stats": []
   },
   "S774": {
-    "name": "S774",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S775": {
     "name": "S775",
@@ -6442,8 +6523,8 @@
     "stats": []
   },
   "S779": {
-    "name": "S779",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S780": {
     "name": "S780",
@@ -6466,8 +6547,8 @@
     "stats": []
   },
   "S785": {
-    "name": "S785",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S786": {
     "name": "S786",
@@ -6482,8 +6563,8 @@
     "stats": []
   },
   "S789": {
-    "name": "S789",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S790": {
     "name": "S790",
@@ -6558,8 +6639,10 @@
     "stats": []
   },
   "S808": {
-    "name": "S808",
-    "stats": []
+    "name": "Attack Damage",
+    "stats": [
+      "+10% increased Attack Damage"
+    ]
   },
   "S809": {
     "name": "S809",
@@ -6590,24 +6673,26 @@
     "stats": []
   },
   "S816": {
-    "name": "S816",
-    "stats": []
+    "name": "Attack Damage",
+    "stats": [
+      "+10% increased Attack Damage"
+    ]
   },
   "S817": {
     "name": "S817",
     "stats": []
   },
   "S818": {
-    "name": "S818",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S819": {
     "name": "S819",
     "stats": []
   },
   "S820": {
-    "name": "S820",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S821": {
     "name": "S821",
@@ -6634,12 +6719,12 @@
     "stats": []
   },
   "S827": {
-    "name": "S827",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S828": {
-    "name": "S828",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S829": {
     "name": "S829",
@@ -6650,8 +6735,10 @@
     "stats": []
   },
   "S831": {
-    "name": "S831",
-    "stats": []
+    "name": "Skill Speed",
+    "stats": [
+      "3% increased Attack and Cast Speed"
+    ]
   },
   "S832": {
     "name": "S832",
@@ -6678,12 +6765,14 @@
     "stats": []
   },
   "S838": {
-    "name": "S838",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S839": {
-    "name": "S839",
-    "stats": []
+    "name": "Quarterstaff Speed",
+    "stats": [
+	    "4% increased Attack Speed with Staves"
+    ]
   },
   "S840": {
     "name": "S840",
@@ -6702,12 +6791,14 @@
     "stats": []
   },
   "S844": {
-    "name": "S844",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S845": {
-    "name": "S845",
-    "stats": []
+    "name": "Skill Speed",
+    "stats": [
+      "3% increased Attack and Cast Speed"
+    ]
   },
   "S846": {
     "name": "S846",
@@ -6742,8 +6833,11 @@
     "stats": []
   },
   "S854": {
-    "name": "S854",
-    "stats": []
+    "name": "Evasion and Energy Shield",
+    "stats": [
+      "+8 to Evasion Rating",
+      "+5 to maximum Energy Shield"
+    ]
   },
   "S855": {
     "name": "S855",
@@ -6774,8 +6868,11 @@
     "stats": []
   },
   "S862": {
-    "name": "S862",
-    "stats": []
+    "name": "Evasion and Energy Shield",
+    "stats": [
+      "+8 to Evasion Rating",
+      "+5 to maximum Energy Shield"
+    ]
   },
   "S863": {
     "name": "S863",
@@ -6790,8 +6887,11 @@
     "stats": []
   },
   "S866": {
-    "name": "S866",
-    "stats": []
+    "name": "Evasion and Energy Shield",
+    "stats": [
+      "+8 to Evasion Rating",
+      "+5 to maximum Energy Shield"
+    ]
   },
   "S867": {
     "name": "S867",
@@ -6802,24 +6902,29 @@
     "stats": []
   },
   "S869": {
-    "name": "S869",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S870": {
     "name": "S870",
     "stats": []
   },
   "S871": {
-    "name": "S871",
-    "stats": []
+    "name": "Evasion and Energy Shield",
+    "stats": [
+      "+8 to Evasion Rating",
+      "+5 to maximum Energy Shield"
+    ]
   },
   "S872": {
-    "name": "S872",
-    "stats": []
+    "name": "Attack Damage",
+    "stats": [
+	    "10% increased Attack Damage"
+    ]
   },
   "S873": {
-    "name": "S873",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S874": {
     "name": "S874",
@@ -6830,12 +6935,14 @@
     "stats": []
   },
   "S876": {
-    "name": "S876",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S877": {
-    "name": "S877",
-    "stats": []
+    "name": "Attack Damage",
+    "stats": [
+	    "10% increased Attack Damage"
+    ]
   },
   "S878": {
     "name": "S878",
@@ -6846,20 +6953,20 @@
     "stats": []
   },
   "S880": {
-    "name": "S880",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S881": {
     "name": "S881",
     "stats": []
   },
   "S882": {
-    "name": "S882",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S883": {
-    "name": "S883",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S884": {
     "name": "S884",
@@ -6878,8 +6985,8 @@
     "stats": []
   },
   "S888": {
-    "name": "S888",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S889": {
     "name": "S889",
@@ -6890,8 +6997,8 @@
     "stats": []
   },
   "S891": {
-    "name": "S891",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S892": {
     "name": "S892",
@@ -6910,8 +7017,10 @@
     "stats": []
   },
   "S896": {
-    "name": "S896",
-    "stats": []
+    "name": "Mana Leech",
+    "stats": [
+	    "10% increased amount of Mana Leeched"
+    ]
   },
   "S897": {
     "name": "S897",
@@ -6938,8 +7047,10 @@
     "stats": []
   },
   "S903": {
-    "name": "S903",
-    "stats": []
+    "name": "Mana Leech",
+    "stats": [
+	    "10% increased amount of Mana Leeched"
+    ]
   },
   "S904": {
     "name": "S904",
@@ -6954,12 +7065,12 @@
     "stats": []
   },
   "S907": {
-    "name": "S907",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S908": {
-    "name": "S908",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S909": {
     "name": "S909",
@@ -6990,8 +7101,10 @@
     "stats": []
   },
   "S916": {
-    "name": "S916",
-    "stats": []
+    "name": "Attack Damage",
+    "stats": [
+	    "10% increased Attack Damage"
+    ]
   },
   "S917": {
     "name": "S917",
@@ -7010,12 +7123,12 @@
     "stats": []
   },
   "S921": {
-    "name": "S921",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S922": {
-    "name": "S922",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S923": {
     "name": "S923",
@@ -7050,8 +7163,8 @@
     "stats": []
   },
   "S931": {
-    "name": "S931",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S932": {
     "name": "S932",
@@ -7082,76 +7195,76 @@
     "stats": []
   },
   "S939": {
-    "name": "S939",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S940": {
-    "name": "S940",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S941": {
-    "name": "S941",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S942": {
-    "name": "S942",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S943": {
-    "name": "S943",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S944": {
-    "name": "S944",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S945": {
-    "name": "S945",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S946": {
-    "name": "S946",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S947": {
-    "name": "S947",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S948": {
-    "name": "S948",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S949": {
-    "name": "S949",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S950": {
-    "name": "S950",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S951": {
-    "name": "S951",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S952": {
-    "name": "S952",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S953": {
-    "name": "S953",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S954": {
-    "name": "S954",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S955": {
-    "name": "S955",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S956": {
-    "name": "S956",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S957": {
     "name": "S957",
@@ -7162,8 +7275,10 @@
     "stats": []
   },
   "S959": {
-    "name": "S959",
-    "stats": []
+    "name": "Attack Damage",
+    "stats": [
+      "10% increased Attack Damage"
+    ]
   },
   "S960": {
     "name": "S960",
@@ -7174,8 +7289,8 @@
     "stats": []
   },
   "S962": {
-    "name": "S962",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S963": {
     "name": "S963",
@@ -7190,8 +7305,8 @@
     "stats": []
   },
   "S966": {
-    "name": "S966",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S967": {
     "name": "S967",
@@ -7230,8 +7345,8 @@
     "stats": []
   },
   "S976": {
-    "name": "S976",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S977": {
     "name": "S977",
@@ -7262,32 +7377,32 @@
     "stats": []
   },
   "S984": {
-    "name": "S984",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S985": {
-    "name": "S985",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S986": {
-    "name": "S986",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S987": {
-    "name": "S987",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S988": {
-    "name": "S988",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S989": {
     "name": "S989",
     "stats": []
   },
   "S990": {
-    "name": "S990",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S991": {
     "name": "S991",
@@ -7306,8 +7421,8 @@
     "stats": []
   },
   "S995": {
-    "name": "S995",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S996": {
     "name": "S996",
@@ -7342,16 +7457,16 @@
     "stats": []
   },
   "S1004": {
-    "name": "S1004",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1005": {
     "name": "S1005",
     "stats": []
   },
   "S1006": {
-    "name": "S1006",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1007": {
     "name": "S1007",
@@ -7362,8 +7477,8 @@
     "stats": []
   },
   "S1009": {
-    "name": "S1009",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1010": {
     "name": "S1010",
@@ -7438,28 +7553,30 @@
     "stats": []
   },
   "S1028": {
-    "name": "S1028",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1029": {
     "name": "S1029",
     "stats": []
   },
   "S1030": {
-    "name": "S1030",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1031": {
     "name": "S1031",
     "stats": []
   },
   "S1032": {
-    "name": "S1032",
-    "stats": []
+    "name": "Armour",
+    "stats": [
+      "+20 to Armour"
+    ]
   },
   "S1033": {
-    "name": "S1033",
-    "stats": []
+    "name": "Evasion",
+    "stats": ["+16 to Evasion Rating"]
   },
   "S1034": {
     "name": "S1034",
@@ -7474,8 +7591,8 @@
     "stats": []
   },
   "S1037": {
-    "name": "S1037",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1038": {
     "name": "S1038",
@@ -7530,8 +7647,10 @@
     "stats": []
   },
   "S1051": {
-    "name": "S1051",
-    "stats": []
+    "name": "Melee Damage",
+    "stats": [
+      "10% increased Melee Damage"
+    ]
   },
   "S1052": {
     "name": "S1052",
@@ -7562,16 +7681,16 @@
     "stats": []
   },
   "S1059": {
-    "name": "S1059",
-    "stats": []
+    "name": "Projectile Damage",
+    "stats": ["10% increased Projectile Damage"]
   },
   "S1060": {
     "name": "S1060",
     "stats": []
   },
   "S1061": {
-    "name": "S1061",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1062": {
     "name": "S1062",
@@ -7582,8 +7701,8 @@
     "stats": []
   },
   "S1064": {
-    "name": "S1064",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1065": {
     "name": "S1065",
@@ -7598,8 +7717,10 @@
     "stats": []
   },
   "S1068": {
-    "name": "S1068",
-    "stats": []
+    "name": "Melee Damage",
+    "stats": [
+      "10% increased Melee Damage"
+    ]
   },
   "S1069": {
     "name": "S1069",
@@ -7638,8 +7759,10 @@
     "stats": []
   },
   "S1078": {
-    "name": "S1078",
-    "stats": []
+    "name": "Life Regeneration",
+    "stats": [
+      "Regenerate 0.4% of Life per second"
+    ]
   },
   "S1079": {
     "name": "S1079",
@@ -7670,8 +7793,8 @@
     "stats": []
   },
   "S1086": {
-    "name": "S1086",
-    "stats": []
+    "name": "Projectile Damage",
+    "stats": ["10% increased Projectile Damage"]
   },
   "S1087": {
     "name": "S1087",
@@ -7730,20 +7853,20 @@
     "stats": []
   },
   "S1101": {
-    "name": "S1101",
-    "stats": []
+    "name": "Melee Damage",
+    "stats": ["6% increased Melee Damage"]
   },
   "S1102": {
     "name": "S1102",
     "stats": []
   },
   "S1103": {
-    "name": "S1103",
-    "stats": []
+    "name": "Movement Speed",
+    "stats": ["2% increased Movement Speed"]
   },
   "S1104": {
-    "name": "S1104",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1105": {
     "name": "S1105",
@@ -7758,8 +7881,8 @@
     "stats": []
   },
   "S1108": {
-    "name": "S1108",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1109": {
     "name": "S1109",
@@ -7774,8 +7897,8 @@
     "stats": []
   },
   "S1112": {
-    "name": "S1112",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1113": {
     "name": "S1113",
@@ -7794,24 +7917,29 @@
     "stats": []
   },
   "S1117": {
-    "name": "S1117",
-    "stats": []
+    "name": "Axe Damage",
+    "stats": ["10% increased Damage with Axes"]
   },
   "S1118": {
     "name": "S1118",
     "stats": []
   },
   "S1119": {
-    "name": "S1119",
-    "stats": []
+    "name": "Projectile Damage",
+    "stats": [
+      "10% increased Projectile Damage"
+    ]
   },
   "S1120": {
     "name": "S1120",
     "stats": []
   },
   "S1121": {
-    "name": "S1121",
-    "stats": []
+    "name": "Armour and Evasion",
+    "stats": [
+      "+10 to Armour",
+      "+8 to Evasion Rating"
+    ]
   },
   "S1122": {
     "name": "S1122",
@@ -7834,8 +7962,8 @@
     "stats": []
   },
   "S1127": {
-    "name": "S1127",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1128": {
     "name": "S1128",
@@ -7850,12 +7978,12 @@
     "stats": []
   },
   "S1131": {
-    "name": "S1131",
-    "stats": []
+    "name": "Immobilise Buildup",
+    "stats": ["8% increased Stun Build","8% increased Freeze Buildup"]
   },
   "S1132": {
-    "name": "S1132",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1133": {
     "name": "S1133",
@@ -7890,12 +8018,15 @@
     "stats": []
   },
   "S1141": {
-    "name": "S1141",
-    "stats": []
+    "name": "Attack Area Damage and Area",
+    "stats": [
+      "8% increased Attack Area Damage",
+      "5% increased Area of Effect for Attacks"
+    ]
   },
   "S1142": {
-    "name": "S1142",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1143": {
     "name": "S1143",
@@ -7914,16 +8045,16 @@
     "stats": []
   },
   "S1147": {
-    "name": "S1147",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1148": {
-    "name": "S1148",
-    "stats": []
+    "name": "Immobilise Buildup",
+    "stats": ["8% increased Stun Buildup","8% increased Freeze Buildup"]
   },
   "S1149": {
-    "name": "S1149",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1150": {
     "name": "S1150",
@@ -7934,8 +8065,8 @@
     "stats": []
   },
   "S1152": {
-    "name": "S1152",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1153": {
     "name": "S1153",
@@ -7966,8 +8097,11 @@
     "stats": []
   },
   "S1160": {
-    "name": "S1160",
-    "stats": []
+    "name": "Attack Area Damage and Area",
+    "stats": [
+      "8% increased Attack Area Damage",
+      "5% increased Area of Effect for Attacks"
+    ]
   },
   "S1161": {
     "name": "S1161",
@@ -8022,16 +8156,16 @@
     "stats": []
   },
   "S1174": {
-    "name": "S1174",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1175": {
     "name": "S1175",
     "stats": []
   },
   "S1176": {
-    "name": "S1176",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1177": {
     "name": "S1177",
@@ -8042,44 +8176,48 @@
     "stats": []
   },
   "S1179": {
-    "name": "S1179",
-    "stats": []
+    "name": "One Handed Damage",
+    "stats": [
+      "10% increased Damage with One Handed Weapons"
+    ]
   },
   "S1180": {
-    "name": "S1180",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1181": {
-    "name": "S1181",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1182": {
     "name": "S1182",
     "stats": []
   },
   "S1183": {
-    "name": "S1183",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1184": {
-    "name": "S1184",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1185": {
-    "name": "S1185",
-    "stats": []
+    "name": "Attack Speed",
+    "stats": [
+      "3% increased Attack Speed with One Handed Weapons"
+    ]
   },
   "S1186": {
-    "name": "S1186",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1187": {
     "name": "S1187",
     "stats": []
   },
   "S1188": {
-    "name": "S1188",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1189": {
     "name": "S1189",
@@ -8098,8 +8236,8 @@
     "stats": []
   },
   "S1193": {
-    "name": "S1193",
-    "stats": []
+    "name": "Projectile Damage",
+    "stats": ["10% increased Projectile Damage"]
   },
   "S1194": {
     "name": "S1194",
@@ -8114,8 +8252,8 @@
     "stats": []
   },
   "S1197": {
-    "name": "S1197",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1198": {
     "name": "S1198",
@@ -8130,12 +8268,12 @@
     "stats": []
   },
   "S1201": {
-    "name": "S1201",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1202": {
-    "name": "S1202",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1203": {
     "name": "S1203",
@@ -8150,8 +8288,10 @@
     "stats": []
   },
   "S1206": {
-    "name": "S1206",
-    "stats": []
+    "name": "One Handed Damage",
+    "stats": [
+      "10% increased Damage with One Handed Weapons"
+    ]
   },
   "S1207": {
     "name": "S1207",
@@ -8182,8 +8322,8 @@
     "stats": []
   },
   "S1214": {
-    "name": "S1214",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1215": {
     "name": "S1215",
@@ -8222,8 +8362,10 @@
     "stats": []
   },
   "S1224": {
-    "name": "S1224",
-    "stats": []
+    "name": "One Handed Damage",
+    "stats": [
+      "10% increased Damage with One Handed Weapons"
+    ]
   },
   "S1225": {
     "name": "S1225",
@@ -8238,8 +8380,8 @@
     "stats": []
   },
   "S1228": {
-    "name": "S1228",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1229": {
     "name": "S1229",
@@ -8278,32 +8420,34 @@
     "stats": []
   },
   "S1238": {
-    "name": "S1238",
-    "stats": []
+    "name": "Armour",
+    "stats": [
+      "15% increased Armour"
+    ]
   },
   "S1239": {
-    "name": "S1239",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1240": {
     "name": "S1240",
     "stats": []
   },
   "S1241": {
-    "name": "S1241",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1242": {
     "name": "S1242",
     "stats": []
   },
   "S1243": {
-    "name": "S1243",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1244": {
-    "name": "S1244",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1245": {
     "name": "S1245",
@@ -8314,8 +8458,8 @@
     "stats": []
   },
   "S1247": {
-    "name": "S1247",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1248": {
     "name": "S1248",
@@ -8342,16 +8486,16 @@
     "stats": []
   },
   "S1254": {
-    "name": "S1254",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1255": {
-    "name": "S1255",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1256": {
-    "name": "S1256",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1257": {
     "name": "S1257",
@@ -8362,8 +8506,8 @@
     "stats": []
   },
   "S1259": {
-    "name": "S1259",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1260": {
     "name": "S1260",
@@ -8378,8 +8522,8 @@
     "stats": []
   },
   "S1263": {
-    "name": "S1263",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1264": {
     "name": "S1264",
@@ -8418,12 +8562,12 @@
     "stats": []
   },
   "S1273": {
-    "name": "S1273",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1274": {
-    "name": "S1274",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1275": {
     "name": "S1275",
@@ -8446,8 +8590,10 @@
     "stats": []
   },
   "S1280": {
-    "name": "S1280",
-    "stats": []
+    "name": "Projectile Damage",
+    "stats": [
+      "10% increased Projectile Damage"
+    ]
   },
   "S1281": {
     "name": "S1281",
@@ -8458,8 +8604,8 @@
     "stats": []
   },
   "S1283": {
-    "name": "S1283",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1284": {
     "name": "S1284",
@@ -8478,8 +8624,8 @@
     "stats": []
   },
   "S1288": {
-    "name": "S1288",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1289": {
     "name": "S1289",
@@ -8510,16 +8656,18 @@
     "stats": []
   },
   "S1296": {
-    "name": "S1296",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1297": {
     "name": "S1297",
     "stats": []
   },
   "S1298": {
-    "name": "S1298",
-    "stats": []
+    "name": "Two Handed Damage",
+    "stats": [
+      "12% increased Damage with Two Handed Weapons"
+    ]
   },
   "S1299": {
     "name": "S1299",
@@ -8534,8 +8682,10 @@
     "stats": []
   },
   "S1302": {
-    "name": "S1302",
-    "stats": []
+    "name": "Slower Rage Decay",
+    "stats": [
+      "Inherent loss of Rage is 10% slower"
+    ]
   },
   "S1303": {
     "name": "S1303",
@@ -8550,16 +8700,16 @@
     "stats": []
   },
   "S1306": {
-    "name": "S1306",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1307": {
     "name": "S1307",
     "stats": []
   },
   "S1308": {
-    "name": "S1308",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1309": {
     "name": "S1309",
@@ -8570,24 +8720,28 @@
     "stats": []
   },
   "S1311": {
-    "name": "S1311",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1312": {
     "name": "S1312",
     "stats": []
   },
   "S1313": {
-    "name": "S1313",
-    "stats": []
+    "name": "Projectile Damage",
+    "stats": [
+      "10% increased Projectile Damage"
+    ]
   },
   "S1314": {
     "name": "S1314",
     "stats": []
   },
   "S1315": {
-    "name": "S1315",
-    "stats": []
+    "name": "Melee Damage",
+    "stats": [
+      "10% increased Melee Damage"
+    ]
   },
   "S1316": {
     "name": "S1316",
@@ -8622,8 +8776,8 @@
     "stats": []
   },
   "S1324": {
-    "name": "S1324",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1325": {
     "name": "S1325",
@@ -8646,12 +8800,14 @@
     "stats": []
   },
   "S1330": {
-    "name": "S1330",
-    "stats": []
+    "name": "Two Handed Damage",
+    "stats": [
+      "12% increased Damage with Two Handed Weapons"
+    ]
   },
   "S1331": {
-    "name": "S1331",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1332": {
     "name": "S1332",
@@ -8674,8 +8830,10 @@
     "stats": []
   },
   "S1337": {
-    "name": "S1337",
-    "stats": []
+    "name": "Melee Damage against Immobilised",
+    "stats": [
+      "20% increased Melee Damage against Immobilised Enemies"
+    ]
   },
   "S1338": {
     "name": "S1338",
@@ -8686,32 +8844,38 @@
     "stats": []
   },
   "S1340": {
-    "name": "S1340",
-    "stats": []
+    "name": "Two Handed Damage",
+    "stats": [
+      "12% increased Damage with Two Handed Weapons"
+    ]
   },
   "S1341": {
-    "name": "S1341",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1342": {
-    "name": "S1342",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1343": {
     "name": "S1343",
     "stats": []
   },
   "S1344": {
-    "name": "S1344",
-    "stats": []
+    "name": "Two Handed Damage",
+    "stats": [
+      "12% increased Damage with Two Handed Weapons"
+    ]
   },
   "S1345": {
     "name": "S1345",
     "stats": []
   },
   "S1346": {
-    "name": "S1346",
-    "stats": []
+    "name": "Two Handed Damage",
+    "stats": [
+      "12% increased Damage with Two Handed Weapons"
+    ]
   },
   "S1347": {
     "name": "S1347",
@@ -8742,12 +8906,14 @@
     "stats": []
   },
   "S1354": {
-    "name": "S1354",
-    "stats": []
+    "name": "Projectile Damage",
+    "stats": [
+      "10% increased Projectile Damage"
+    ]
   },
   "S1355": {
-    "name": "S1355",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1356": {
     "name": "S1356",
@@ -8758,8 +8924,8 @@
     "stats": []
   },
   "S1358": {
-    "name": "S1358",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1359": {
     "name": "S1359",
@@ -8774,8 +8940,8 @@
     "stats": []
   },
   "S1362": {
-    "name": "S1362",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1363": {
     "name": "S1363",
@@ -8794,8 +8960,8 @@
     "stats": []
   },
   "S1367": {
-    "name": "S1367",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1368": {
     "name": "S1368",
@@ -8806,8 +8972,8 @@
     "stats": []
   },
   "S1370": {
-    "name": "S1370",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1371": {
     "name": "S1371",
@@ -8818,8 +8984,10 @@
     "stats": []
   },
   "S1373": {
-    "name": "S1373",
-    "stats": []
+    "name": "Life Leech",
+    "stats": [
+      "10% increased amount of Life Leeched"
+    ]
   },
   "S1374": {
     "name": "S1374",
@@ -8842,24 +9010,28 @@
     "stats": []
   },
   "S1379": {
-    "name": "S1379",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1380": {
-    "name": "S1380",
-    "stats": []
+    "name": "Projectile Damage",
+    "stats": [
+      "Projectiles deal 12% increased Damage with Hits against Enemies further than 6m"
+    ]
   },
   "S1381": {
-    "name": "S1381",
-    "stats": []
+    "name": "Projectile Damage",
+    "stats": [
+      "Projectiles deal 12% increased Damage with Hits against Enemies further than 6m"
+    ]
   },
   "S1382": {
     "name": "S1382",
     "stats": []
   },
   "S1383": {
-    "name": "S1383",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1384": {
     "name": "S1384",
@@ -8878,8 +9050,10 @@
     "stats": []
   },
   "S1388": {
-    "name": "S1388",
-    "stats": []
+    "name": "Totem Placement Speed",
+    "stats": [
+      "20% increased Totem Placement Speed"
+    ]
   },
   "S1389": {
     "name": "S1389",
@@ -8894,8 +9068,8 @@
     "stats": []
   },
   "S1392": {
-    "name": "S1392",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1393": {
     "name": "S1393",
@@ -8918,8 +9092,8 @@
     "stats": []
   },
   "S1398": {
-    "name": "S1398",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1399": {
     "name": "S1399",
@@ -8934,16 +9108,18 @@
     "stats": []
   },
   "S1402": {
-    "name": "S1402",
-    "stats": []
+    "name": "Projectile Damage",
+    "stats": [
+      "Projectiles deal 12% increased Damage with Hits against Enemies within 2m"
+    ]
   },
   "S1403": {
     "name": "S1403",
     "stats": []
   },
   "S1404": {
-    "name": "S1404",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1405": {
     "name": "S1405",
@@ -8962,16 +9138,16 @@
     "stats": []
   },
   "S1409": {
-    "name": "S1409",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1410": {
-    "name": "S1410",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1411": {
-    "name": "S1411",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1412": {
     "name": "S1412",
@@ -8994,16 +9170,16 @@
     "stats": []
   },
   "S1417": {
-    "name": "S1417",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1418": {
     "name": "S1418",
     "stats": []
   },
   "S1419": {
-    "name": "S1419",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1420": {
     "name": "S1420",
@@ -9026,8 +9202,10 @@
     "stats": []
   },
   "S1425": {
-    "name": "S1425",
-    "stats": []
+    "name": "Projectile Damage",
+    "stats": [
+      "Projectiles deal 12% increased Damage with Hits against Enemies within 2m"
+    ]
   },
   "S1426": {
     "name": "S1426",
@@ -9050,20 +9228,20 @@
     "stats": []
   },
   "S1431": {
-    "name": "S1431",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1432": {
-    "name": "S1432",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1433": {
-    "name": "S1433",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1434": {
-    "name": "S1434",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1435": {
     "name": "S1435",
@@ -9154,12 +9332,12 @@
     "stats": []
   },
   "S1457": {
-    "name": "S1457",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1458": {
-    "name": "S1458",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1459": {
     "name": "S1459",
@@ -9218,8 +9396,8 @@
     "stats": []
   },
   "S1473": {
-    "name": "S1473",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1474": {
     "name": "S1474",
@@ -9238,8 +9416,10 @@
     "stats": []
   },
   "S1478": {
-    "name": "S1478",
-    "stats": []
+    "name": "Two Handed Damage",
+    "stats": [
+      "12% increased Damage with Two Handed Weapons"
+    ]
   },
   "S1479": {
     "name": "S1479",
@@ -9278,8 +9458,8 @@
     "stats": []
   },
   "S1488": {
-    "name": "S1488",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1489": {
     "name": "S1489",
@@ -9298,16 +9478,18 @@
     "stats": []
   },
   "S1493": {
-    "name": "S1493",
-    "stats": []
+    "name": "Two Handed Damage",
+    "stats": [
+      "12% increased Damage with Two Handed Weapons"
+    ]
   },
   "S1494": {
     "name": "S1494",
     "stats": []
   },
   "S1495": {
-    "name": "S1495",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1496": {
     "name": "S1496",
@@ -9334,12 +9516,14 @@
     "stats": []
   },
   "S1502": {
-    "name": "S1502",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1503": {
-    "name": "S1503",
-    "stats": []
+    "name": "Two Handed Damage",
+    "stats": [
+      "12% increased Damage with Two Handed Weapons"
+    ]
   },
   "S1504": {
     "name": "S1504",
@@ -9370,8 +9554,8 @@
     "stats": []
   },
   "S1511": {
-    "name": "S1511",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1512": {
     "name": "S1512",
@@ -9462,8 +9646,8 @@
     "stats": []
   },
   "S1534": {
-    "name": "S1534",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1535": {
     "name": "S1535",
@@ -9558,8 +9742,8 @@
     "stats": []
   },
   "S1558": {
-    "name": "S1558",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1559": {
     "name": "S1559",
@@ -9582,8 +9766,8 @@
     "stats": []
   },
   "S1564": {
-    "name": "S1564",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1565": {
     "name": "S1565",
@@ -9594,12 +9778,14 @@
     "stats": []
   },
   "S1567": {
-    "name": "S1567",
-    "stats": []
+    "name": "Grenade Area",
+    "stats": [
+      "12% increased Grenade Area of Effect"
+    ]
   },
   "S1568": {
-    "name": "S1568",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1569": {
     "name": "S1569",
@@ -9610,12 +9796,12 @@
     "stats": []
   },
   "S1571": {
-    "name": "S1571",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1572": {
-    "name": "S1572",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1573": {
     "name": "S1573",
@@ -9658,8 +9844,8 @@
     "stats": []
   },
   "S1583": {
-    "name": "S1583",
-    "stats": []
+    "name": "Grenade Cooldown Recovery Rate",
+    "stats": ["15% increased Cooldown Recovery Rate for Grenade Skills"]
   },
   "S1584": {
     "name": "S1584",
@@ -9686,16 +9872,16 @@
     "stats": []
   },
   "S1590": {
-    "name": "S1590",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1591": {
     "name": "S1591",
     "stats": []
   },
   "S1592": {
-    "name": "S1592",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1593": {
     "name": "S1593",
@@ -9730,8 +9916,10 @@
     "stats": []
   },
   "S1601": {
-    "name": "S1601",
-    "stats": []
+    "name": "Grenade Area",
+    "stats": [
+      "12% increased Grenade Area of Effect"
+    ]
   },
   "S1602": {
     "name": "S1602",
@@ -9806,8 +9994,8 @@
     "stats": []
   },
   "S1620": {
-    "name": "S1620",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1621": {
     "name": "S1621",
@@ -9846,8 +10034,8 @@
     "stats": []
   },
   "S1630": {
-    "name": "S1630",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1631": {
     "name": "S1631",
@@ -9862,8 +10050,8 @@
     "stats": []
   },
   "S1634": {
-    "name": "S1634",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1635": {
     "name": "S1635",
@@ -9894,8 +10082,8 @@
     "stats": []
   },
   "S1642": {
-    "name": "S1642",
-    "stats": []
+    "name": "Life Regeneration",
+    "stats": ["Regenerate 0.4% of Life per second"]
   },
   "S1643": {
     "name": "S1643",
@@ -9906,8 +10094,8 @@
     "stats": []
   },
   "S1645": {
-    "name": "S1645",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1646": {
     "name": "S1646",
@@ -9918,12 +10106,12 @@
     "stats": []
   },
   "S1648": {
-    "name": "S1648",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1649": {
-    "name": "S1649",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1650": {
     "name": "S1650",
@@ -10050,12 +10238,12 @@
     "stats": []
   },
   "S1681": {
-    "name": "S1681",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1682": {
-    "name": "S1682",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1683": {
     "name": "S1683",
@@ -10082,8 +10270,8 @@
     "stats": []
   },
   "S1689": {
-    "name": "S1689",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1690": {
     "name": "S1690",
@@ -10118,8 +10306,8 @@
     "stats": []
   },
   "S1698": {
-    "name": "S1698",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1699": {
     "name": "S1699",
@@ -10134,8 +10322,8 @@
     "stats": []
   },
   "S1702": {
-    "name": "S1702",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1703": {
     "name": "S1703",
@@ -10154,8 +10342,8 @@
     "stats": []
   },
   "S1707": {
-    "name": "S1707",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1708": {
     "name": "S1708",
@@ -10178,8 +10366,8 @@
     "stats": []
   },
   "S1713": {
-    "name": "S1713",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1714": {
     "name": "S1714",
@@ -10190,8 +10378,8 @@
     "stats": []
   },
   "S1716": {
-    "name": "S1716",
-    "stats": []
+    "name": "Stun Threshold",
+    "stats": ["12% increased Stun Threshold"]
   },
   "S1717": {
     "name": "S1717",
@@ -10262,24 +10450,24 @@
     "stats": []
   },
   "S1734": {
-    "name": "S1734",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1735": {
-    "name": "S1735",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1736": {
-    "name": "S1736",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1737": {
-    "name": "S1737",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1738": {
-    "name": "S1738",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1739": {
     "name": "S1739",
@@ -10294,16 +10482,16 @@
     "stats": []
   },
   "S1742": {
-    "name": "S1742",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1743": {
-    "name": "S1743",
-    "stats": []
+    "name": "Stun Buildup",
+    "stats": ["15% increased Stun Buildup"]
   },
   "S1744": {
-    "name": "S1744",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1745": {
     "name": "S1745",
@@ -10322,8 +10510,8 @@
     "stats": []
   },
   "S1749": {
-    "name": "S1749",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1750": {
     "name": "S1750",
@@ -10426,8 +10614,8 @@
     "stats": []
   },
   "S1775": {
-    "name": "S1775",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1776": {
     "name": "S1776",
@@ -10478,8 +10666,8 @@
     "stats": []
   },
   "S1788": {
-    "name": "S1788",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1789": {
     "name": "S1789",
@@ -10538,8 +10726,8 @@
     "stats": []
   },
   "S1803": {
-    "name": "S1803",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1804": {
     "name": "S1804",
@@ -10622,12 +10810,14 @@
     "stats": []
   },
   "S1824": {
-    "name": "S1824",
-    "stats": []
+    "name": "Projectile Damage",
+    "stats": [
+      "10% increased Projectile Damage"
+    ]
   },
   "S1825": {
-    "name": "S1825",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1826": {
     "name": "S1826",
@@ -10642,8 +10832,10 @@
     "stats": []
   },
   "S1829": {
-    "name": "S1829",
-    "stats": []
+    "name": "Projectile Damage",
+    "stats": [
+      "10% increased Projectile Damage"
+    ]
   },
   "S1830": {
     "name": "S1830",
@@ -10674,12 +10866,12 @@
     "stats": []
   },
   "S1837": {
-    "name": "S1837",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1838": {
-    "name": "S1838",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1839": {
     "name": "S1839",
@@ -10698,12 +10890,14 @@
     "stats": []
   },
   "S1843": {
-    "name": "S1843",
-    "stats": []
+    "name": "Bleeding Chance",
+    "stats": [
+      "5% chance to inflict Bleeding on Hit"
+    ]
   },
   "S1844": {
-    "name": "S1844",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1845": {
     "name": "S1845",
@@ -10746,8 +10940,8 @@
     "stats": []
   },
   "S1855": {
-    "name": "S1855",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1856": {
     "name": "S1856",
@@ -10794,20 +10988,20 @@
     "stats": []
   },
   "S1867": {
-    "name": "S1867",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1868": {
-    "name": "S1868",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1869": {
-    "name": "S1869",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1870": {
-    "name": "S1870",
-    "stats": []
+    "name": "Attribute",
+    "stats": ["+5 to any Attribute"]
   },
   "S1871": {
     "name": "S1871",
@@ -10979,6 +11173,29 @@
   },
   "S1913": {
     "name": "S1913",
+    "stats": []
+  },
+  "S1914": {
+    "name": "S1914",
+    "stats": []
+  },
+  "S1915": {
+    "name": "Quarterstaff Stun and Knockback",
+    "stats": [
+	    "20% increased Stun Buildup",
+	    "20% increased Knockback Distance"
+    ]
+  },
+  "S1916": {
+    "name": "S1916",
+    "stats": []
+  },
+  "S1917": {
+    "name": "S1917",
+    "stats": []
+  },
+  "S1918": {
+    "name": "S1918",
     "stats": []
   }
 }

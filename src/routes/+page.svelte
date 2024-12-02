@@ -1,10 +1,12 @@
 <script lang="ts">
 	import { base } from '$app/paths';
-	import { type NodePosition, type TooltipContent, loadData } from '$lib';
+	import { type TreeNode, loadData } from '$lib';
 	import { onMount, tick } from 'svelte';
 	import { browser } from '$app/environment';
+	import { Header } from '$lib/components/ui/header';
+	import { TreeNodeTooltip } from '$lib/components/ui/tree-node-tooltip/index.js';
 
-	let { positions: nodes, nodesDescription: nodesDesc } = loadData();
+	let { nodes } = loadData();
 
 	let containerEl: HTMLDivElement | null = null;
 	let imageEl: HTMLImageElement | null = null;
@@ -12,7 +14,7 @@
 	let tooltipEl: HTMLDivElement | null = null; // Reference to the tooltip element
 	let hasLoaded = false;
 
-	let tooltipContent: TooltipContent | null = null;
+	let tooltipNode: TreeNode | null = null;
 	let tooltipX = 0;
 	let tooltipY = 0;
 
@@ -41,6 +43,7 @@
 	// Load saved selected nodes from localStorage on component initialization
 	if (browser) {
 		const savedSelectedNodes = localStorage.getItem('selectedSkillNodes');
+
 		if (savedSelectedNodes) {
 			try {
 				selectedNodes = JSON.parse(savedSelectedNodes);
@@ -63,31 +66,48 @@
 	let hideUnselected = false;
 	let hideSmall = false;
 
-	// State for selected nodes display
-	let showSelectedNodesDisplay = false;
-	let isSelectedNodesDisplayPinned = false;
-
-	let selectedNodesDisplayEl: HTMLDivElement | null = null;
-	let selectedNodesSpanEl: HTMLSpanElement | null = null;
-
-	// State for search results display
-	let showSearchResultsDisplay = false;
-	let isSearchResultsDisplayPinned = false;
-
-	let searchResultsDisplayEl: HTMLDivElement | null = null;
-	let searchResultsSpanEl: HTMLSpanElement | null = null;
-
 	// Reactive statement for search
 	$: handleSearch(searchTerm);
 
-	async function activateTooltip(node: NodePosition) {
-		tooltipContent = nodesDesc[node.id];
+	// composable filter functions
+	function filterSmallNodes(node: TreeNode) {
+		return !hideSmall || node.type !== 'small';
+	}
+
+	function filterUnselectedNodes(node: TreeNode) {
+		return !hideUnselected || !selectedNodes.includes(node.id);
+	}
+
+	function filterUnidentifiedNodes(node: TreeNode) {
+		return !hideUnidentified || node.description.length > 0;
+	}
+
+	const filterFns = [filterSmallNodes, filterUnselectedNodes, filterUnidentifiedNodes];
+
+	// filter nodes using active filters
+	function filterNodes(node: TreeNode) {
+		return filterFns.every((filterFn) => filterFn(node));
+	}
+
+	const NODE_SIZE = {
+		notable: 20,
+		small: 10,
+		keystone: 24
+	};
+
+	// calculate node size in pixels based on type
+	function getNodeSize(node: TreeNode) {
+		return NODE_SIZE[node.type];
+	}
+
+	async function activateTooltip(node: TreeNode) {
+		tooltipNode = node;
 
 		if (!imageEl || !containerEl) return;
 
 		// Calculate node position relative to the container, accounting for pan offsets
-		const nodeX = node.x * imageEl.naturalWidth * scale + panOffsetX;
-		const nodeY = node.y * imageEl.naturalHeight * scale + panOffsetY;
+		const nodeX = node.position.x * imageEl.naturalWidth * scale + panOffsetX;
+		const nodeY = node.position.y * imageEl.naturalHeight * scale + panOffsetY;
 
 		// Initial tooltip position
 		tooltipX = nodeX + 20; // Adjust as needed
@@ -138,7 +158,7 @@
 		}
 	}
 
-	function toggleNodeSelection(node: NodePosition) {
+	function toggleNodeSelection(node: TreeNode) {
 		if (selectedNodes.includes(node.id)) {
 			// Deselect node
 			selectedNodes = selectedNodes.filter((id) => id !== node.id);
@@ -162,7 +182,7 @@
 		}
 	}
 
-	function handleMouseEnter(node: NodePosition) {
+	function handleMouseEnter(node: TreeNode) {
 		if (!isPanning) {
 			activateTooltip(node);
 		}
@@ -170,7 +190,7 @@
 
 	function handleMouseLeave() {
 		if (!isPanning) {
-			tooltipContent = null;
+			tooltipNode = null;
 		}
 	}
 
@@ -223,11 +243,12 @@
 
 		const search = text.toLowerCase();
 
-		searchResults = Object.entries(nodesDesc)
+		searchResults = Object.entries(nodes)
 			.filter(
 				([_, values]) =>
+					values.id.includes(search) ||
 					values.name.toLowerCase().includes(search) ||
-					values.stats.some((value) => value.toLowerCase().includes(search))
+					values.description.some((value) => value.toLowerCase().includes(search))
 			)
 			.map(([key, _]) => key);
 	}
@@ -258,6 +279,7 @@
 
 	function clearSelectedNodes() {
 		selectedNodes = [];
+
 		// Clear localStorage when all nodes are cleared
 		if (browser) {
 			localStorage.removeItem('selectedSkillNodes');
@@ -281,421 +303,193 @@
 		window.addEventListener('mousemove', handleMove);
 		window.addEventListener('mouseup', handleUp);
 
-		// Handle clicks outside the selected nodes and search results display
-		const handleClickOutside = (event: MouseEvent) => {
-			const clickedOutsideSelectedNodes =
-				isSelectedNodesDisplayPinned &&
-				!selectedNodesDisplayEl?.contains(event.target as Node) &&
-				!selectedNodesSpanEl?.contains(event.target as Node);
-
-			const clickedOutsideSearchResults =
-				isSearchResultsDisplayPinned &&
-				!searchResultsDisplayEl?.contains(event.target as Node) &&
-				!searchResultsSpanEl?.contains(event.target as Node);
-
-			if (clickedOutsideSelectedNodes) {
-				isSelectedNodesDisplayPinned = false;
-				showSelectedNodesDisplay = false;
-			}
-
-			if (clickedOutsideSearchResults) {
-				isSearchResultsDisplayPinned = false;
-				showSearchResultsDisplay = false;
-			}
-		};
-
-		document.addEventListener('click', handleClickOutside);
-
 		return () => {
 			window.removeEventListener('mousemove', handleMove);
 			window.removeEventListener('mouseup', handleUp);
-			document.removeEventListener('click', handleClickOutside);
 		};
 	});
-
-	function handleSelectedNodesMouseEnter() {
-		showSelectedNodesDisplay = true;
-	}
-
-	function handleSelectedNodesMouseLeave() {
-		if (!isSelectedNodesDisplayPinned) {
-			showSelectedNodesDisplay = false;
-		}
-	}
-
-	function handleSelectedNodesClick(event: MouseEvent) {
-		isSelectedNodesDisplayPinned = !isSelectedNodesDisplayPinned;
-		if (!isSelectedNodesDisplayPinned) {
-			showSelectedNodesDisplay = false;
-		} else {
-			showSelectedNodesDisplay = true;
-		}
-		event.stopPropagation();
-	}
-
-	function handleSearchResultsMouseEnter() {
-		showSearchResultsDisplay = true;
-	}
-
-	function handleSearchResultsMouseLeave() {
-		if (!isSearchResultsDisplayPinned) {
-			showSearchResultsDisplay = false;
-		}
-	}
-
-	function handleSearchResultsClick(event: MouseEvent) {
-		isSearchResultsDisplayPinned = !isSearchResultsDisplayPinned;
-		if (!isSearchResultsDisplayPinned) {
-			showSearchResultsDisplay = false;
-		} else {
-			showSearchResultsDisplay = true;
-		}
-		event.stopPropagation();
-	}
 </script>
 
-<!-- Top Bar Section -->
-<div class="top-bar">
-	<!-- GitHub link to the top-right corner -->
-	<div class="github-text">
-		<p>本项目来自GitHub开源<br>汉化文本来源于chat-gpt4.0（施工者：超昂蓝莓）<br>如果愿意提供更好的汉化文本或建议可以随时联系我</p>
-	</div>
-
-	<div class="github-link">
-		<a href="https://github.com/marcoaaguiar/poe2-tree" target="_blank" rel="noopener noreferrer">
-			<!-- GitHub SVG Icon -->
-			<svg height="32" viewBox="0 0 16 16" width="32" aria-hidden="true">
-				<path
-					fill-rule="evenodd"
-					d="M8 0C3.58 0 0 3.58 0 8a8 8 0 005.47 7.59c.4.07.55-.17.55-.38
-					  0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52
-					  0-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95
-					  0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.22 2.2.82a7.65 7.65 0 012 0c1.53-1.04
-					  2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15
-					  0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48
-					  0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8 8 0 0016 8c0-4.42-3.58-8-8-8z"
-				>
-				</path>
-			</svg>
-		</a>
-	</div>
-
-	<div class="wechat-link">
-		<svg xmlns="http://www.w3.org/2000/svg" height="32" viewBox="0 0 50 50" width="32" aria-hidden="true">
-			<path d="M 19 6 C 9.625 6 2 12.503906 2 20.5 C 2 24.769531 4.058594 28.609375 7.816406 31.390625 L 5.179688 39.304688 L 13.425781 34.199219 C 15.714844 34.917969 18.507813 35.171875 21.203125 34.875 C 23.390625 39.109375 28.332031 42 34 42 C 35.722656 42 37.316406 41.675781 38.796875 41.234375 L 45.644531 45.066406 L 43.734375 38.515625 C 46.3125 36.375 48 33.394531 48 30 C 48 23.789063 42.597656 18.835938 35.75 18.105469 C 34.40625 11.152344 27.367188 6 19 6 Z M 13 14 C 14.101563 14 15 14.898438 15 16 C 15 17.101563 14.101563 18 13 18 C 11.898438 18 11 17.101563 11 16 C 11 14.898438 11.898438 14 13 14 Z M 25 14 C 26.101563 14 27 14.898438 27 16 C 27 17.101563 26.101563 18 25 18 C 23.898438 18 23 17.101563 23 16 C 23 14.898438 23.898438 14 25 14 Z M 34 20 C 40.746094 20 46 24.535156 46 30 C 46 32.957031 44.492188 35.550781 42.003906 37.394531 L 41.445313 37.8125 L 42.355469 40.933594 L 39.105469 39.109375 L 38.683594 39.25 C 37.285156 39.71875 35.6875 40 34 40 C 27.253906 40 22 35.464844 22 30 C 22 24.535156 27.253906 20 34 20 Z M 29.5 26 C 28.699219 26 28 26.699219 28 27.5 C 28 28.300781 28.699219 29 29.5 29 C 30.300781 29 31 28.300781 31 27.5 C 31 26.699219 30.300781 26 29.5 26 Z M 38.5 26 C 37.699219 26 37 26.699219 37 27.5 C 37 28.300781 37.699219 29 38.5 29 C 39.300781 29 40 28.300781 40 27.5 C 40 26.699219 39.300781 26 38.5 26 Z"></path>
-		</svg>
-		<img class="wechat-hover-image" src="wechat121.png" alt="WeChat QR Code">
-	</div>
-
-
-
-	<h1>流放之路2 技能树预览</h1>
-
-	<!-- Filters -->
-	<div class="filters">
-		<p><b>高亮筛选:</b></p>
-		<label><input type="checkbox" bind:checked={highlightKeystones} />基石天赋</label>
-		<label><input type="checkbox" bind:checked={highlightNotables} />大天赋</label>
-		<label><input type="checkbox" bind:checked={highlightSmalls} />小天赋</label>
-	</div>
-	<div class="filters">
-		<p><b>勾选隐藏:</b></p>
-		<label><input type="checkbox" bind:checked={hideUnidentified} />未收录</label>
-		<label><input type="checkbox" bind:checked={hideUnselected} />未选中</label>
-		<label><input type="checkbox" bind:checked={hideSmall} />小天赋</label>
-	</div>
-</div>
-
-<!-- Search and Filter Section -->
-<div class="search-bar">
-	<input type="text" placeholder="搜索..." bind:value={searchTerm} />
-	<span
-		bind:this={searchResultsSpanEl}
-		onmouseenter={handleSearchResultsMouseEnter}
-		onmouseleave={handleSearchResultsMouseLeave}
-		onclick={handleSearchResultsClick}
-		style="cursor: pointer; margin-right: 10px;">搜索结果: {searchResults.length}</span
-	>
-
-	<!-- Search Results Display -->
-	{#if showSearchResultsDisplay}
-		<div class="info-display" bind:this={searchResultsDisplayEl}>
-			{#if searchResults.length > 0}
-				<ul>
+<!-- page layout -->
+<div class="grid grid-cols-1 grid-rows-[auto_1fr] h-dvh">
+	<Header />
+	<!-- Tree -->
+	<div class="grid grid-rows-1 grid-cols-[20rem_1fr] min-h-0">
+		<!-- Left Sidebar -->
+		<aside class="h-full grid grid-cols-1 grid-rows-[auto_1fr_1fr] gap-2 p-2 bg-[#111] min-h-0">
+			<!-- Toggleable -->
+			<div class="space-y-4">
+				<div>
+					<b class="block underline underline-offset-2">Highlight:</b>
+					<div class="flex flex-row gap-2 flex-wrap">
+						<label class="whitespace-nowrap">
+							<input type="checkbox" bind:checked={highlightKeystones} />
+							<span>Keystones</span>
+						</label>
+						<label class="whitespace-nowrap">
+							<input type="checkbox" bind:checked={highlightNotables} />
+							<span>Notables</span>
+						</label>
+						<label class="whitespace-nowrap">
+							<input type="checkbox" bind:checked={highlightSmalls} />
+							<span>Smalls</span>
+						</label>
+					</div>
+				</div>
+				<div>
+					<b class="block underline underline-offset-2">Hide:</b>
+					<div class="flex flex-row gap-2 flex-wrap">
+						<label class="whitespace-nowrap">
+							<input type="checkbox" bind:checked={hideUnidentified} />
+							<span>Unidentified</span>
+						</label>
+						<label class="whitespace-nowrap">
+							<input type="checkbox" bind:checked={hideUnselected} />
+							<span>Unselected</span>
+						</label>
+						<label class="whitespace-nowrap">
+							<input type="checkbox" bind:checked={hideSmall} />
+							<span>Smalls</span>
+						</label>
+					</div>
+				</div>
+			</div>
+			<!-- Search -->
+			<div class="min-h-0 grid grid-cols-1 grid-rows-[auto_auto_auto_1fr]">
+				<b class="block underline underline-offset-2">Search:</b>
+				<input
+					class="block rounded px-2 text-black"
+					type="text"
+					placeholder="Search..."
+					bind:value={searchTerm}
+				/>
+				<span>Found: {searchResults.length}</span>
+				<ul class="block min-h-0 overflow-y-auto">
 					{#each searchResults as nodeId}
 						<li>
-							<strong>{nodesDesc[nodeId].name}</strong>
+							<strong>{nodes[nodeId].name}</strong>
 							<ul>
-								{#each nodesDesc[nodeId].stats as stat}
-									<li>{stat}</li>
+								{#each nodes[nodeId].description as description}
+									<li class="text-sm text-[#7d7aad]">{description}</li>
 								{/each}
 							</ul>
 						</li>
 					{/each}
 				</ul>
-			{:else}
-				<p>No search results.</p>
-			{/if}
-		</div>
-	{/if}
-
-	<span
-		bind:this={selectedNodesSpanEl}
-		onmouseenter={handleSelectedNodesMouseEnter}
-		onmouseleave={handleSelectedNodesMouseLeave}
-		onclick={handleSelectedNodesClick}
-		style="cursor: pointer;">已选节点: {selectedNodes.length}/122</span
-	>
-
-	<!-- Selected Nodes Display -->
-	{#if showSelectedNodesDisplay}
-		<div class="info-display" bind:this={selectedNodesDisplayEl}>
-			{#if selectedNodes.length > 0}
-				<button onclick={clearSelectedNodes}>清除已选节点</button>
-				<ul>
-					<!-- Only display non small nodes -->
+			</div>
+			<!-- Selected -->
+			<div class="min-h-0 grid grid-cols-1 grid-rows-[auto_auto_auto_1fr]">
+				<b class="underline underline-offset-2">Selected:</b>
+				<div class="flex flex-row justify-between">
+					<button class="px-4 border rounded border-white border-solid" onclick={clearSelectedNodes}
+						>Clear
+					</button>
+					<span
+						>Selected:
+						{selectedNodes.length} / {Object.entries(nodes).filter(
+							([_, n]) => n.description.length > 0
+						).length}
+					</span>
+				</div>
+				<ul class="block min-h-0 overflow-y-auto">
 					{#each selectedNodes as nodeId}
 						{#if !nodeId.startsWith('S')}
 							<li>
-								<strong>{nodesDesc[nodeId].name}</strong>
+								<strong>{nodes[nodeId].name}</strong>
 								<ul>
-									{#each nodesDesc[nodeId].stats as stat}
-										<li>{stat}</li>
+									{#each nodes[nodeId].description as description}
+										<li class="text-sm text-[#7d7aad]">{description}</li>
 									{/each}
 								</ul>
 							</li>
 						{/if}
 					{/each}
 				</ul>
-			{:else}
-				<p>No nodes selected.</p>
-			{/if}
-		</div>
-	{/if}
-</div>
-
-<!-- Skill Tree Container -->
-<!-- svelte-ignore a11y_no_noninteractive_element_interactions -->
-<div
-	bind:this={containerEl}
-	class="image-container"
-	role="application"
-	tabindex="-1"
-	onmousedown={handleContainerMousedown}
-	onwheel={handleWheel}
->
-	<div
-		bind:this={imageWrapperEl}
-		class="image-wrapper"
-		style="
+			</div>
+		</aside>
+		<!-- Tree View -->
+		<div class="bg-black">
+			<!-- Skill Tree Container -->
+			<!-- svelte-ignore a11y_no_noninteractive_element_interactions -->
+			<div
+				bind:this={containerEl}
+				class="overflow-hidden relative block w-full h-full outline-none"
+				role="application"
+				tabindex="-1"
+				onmousedown={handleContainerMousedown}
+				onwheel={handleWheel}
+			>
+				<div
+					bind:this={imageWrapperEl}
+					class="absolute top-0 left-0"
+					style="
 			  width: {imageEl ? imageEl.naturalWidth * scale + 'px' : 'auto'};
 			  height: {imageEl ? imageEl.naturalHeight * scale + 'px' : 'auto'};
 			  transform: translate({panOffsetX}px, {panOffsetY}px);
 			  user-select: none;
 			  cursor: {isPanning ? 'grabbing' : 'grab'};
 		  "
-	>
-		<img
-			bind:this={imageEl}
-			onload={handleImageLoad}
-			src="{base}/skill-tree.png"
-			alt="Interactive"
-			draggable="false"
-			style="
-				  pointer-events: none;
-				  max-width: none;
+				>
+					<img
+						class="pointer-events-none max-w-none"
+						bind:this={imageEl}
+						onload={handleImageLoad}
+						src="{base}/skill-tree.png"
+						alt="Interactive"
+						draggable="false"
+						style="
 				  width: {imageEl ? imageEl.naturalWidth * scale + 'px' : 'auto'};
 				  height: {imageEl ? imageEl.naturalHeight * scale + 'px' : 'auto'};
 			  "
-		/>
+					/>
 
-		<!-- Display hoverable regions with lighter color -->
-		{#if hasLoaded}
-			{#each ['notables', 'keystones', 'smalls'] as kind}
-				{#each nodes[kind] as node}
-					{#if !(hideSmall && node.id.startsWith('S'))}
-						{#if !(hideUnselected && !selectedNodes.includes(node.id))}
-							{#if !(hideUnidentified && nodesDesc[node.id].name === node.id)}
-								<!-- svelte-ignore a11y_no_static_element_interactions -->
-								<!-- svelte-ignore a11y_click_events_have_key_events -->
-								<div
-									class:notable={node.id.startsWith('N')}
-									class:keystone={node.id.startsWith('K')}
-									class:small={node.id.startsWith('S')}
-									class:unidentified={nodesDesc[node.id]?.name === node.id}
-									class:search-result={searchResults.includes(node.id)}
-									class:selected={selectedNodes.includes(node.id)}
-									class:highlighted-keystone={highlightKeystones && node.id.startsWith('K')}
-									class:highlighted-notable={highlightNotables && node.id.startsWith('N')}
-									class:highlighted-small={highlightSmalls && node.id.startsWith('S')}
-									style="
-								  width: {(baseNodeSize + node.id.startsWith('K') * 4 - node.id.startsWith('S') * 10) * scale}px;
-								  height: {(baseNodeSize + node.id.startsWith('K') * 4 - node.id.startsWith('S') * 10) * scale}px;
-								  left: {node.x * imageEl.naturalWidth * scale -
-										((baseNodeSize + node.id.startsWith('K') * 4 - node.id.startsWith('S') * 10) *
-											scale) /
-											2}px;
-								  top: {node.y * imageEl.naturalHeight * scale -
-										((baseNodeSize + node.id.startsWith('K') * 4 - node.id.startsWith('S') * 10) *
-											scale) /
-											2}px;
-							  "
-									onmousedown={(event) => event.stopPropagation()}
-									onclick={() => toggleNodeSelection(node)}
-									onmouseenter={() => handleMouseEnter(node)}
-									onmouseleave={handleMouseLeave}
-								></div>
-							{/if}
-						{/if}
+					<!-- Display hoverable regions with lighter color -->
+					{#if hasLoaded}
+						{#each Object.values(nodes).filter(filterNodes) as node}
+							<!-- svelte-ignore a11y_no_static_element_interactions -->
+							<!-- svelte-ignore a11y_click_events_have_key_events -->
+							<div
+								class:keystone={node.type === 'keystone'}
+								class:notable={node.type === 'notable'}
+								class:small={node.type === 'small'}
+								class:unidentified={node.description.length === 0}
+								class:search-result={searchResults.includes(node.id)}
+								class:selected={selectedNodes.includes(node.id)}
+								class:highlighted-keystone={highlightKeystones && node.type === 'keystone'}
+								class:highlighted-notable={highlightNotables && node.type === 'notable'}
+								class:highlighted-small={highlightSmalls && node.type === 'small'}
+								style="
+									height: {getNodeSize(node) * scale}px;
+									width: {getNodeSize(node) * scale}px;
+									left: {node.position.x * imageEl.naturalWidth * scale - (getNodeSize(node) * scale) / 2}px;
+									top: {node.position.y * imageEl.naturalHeight * scale - (getNodeSize(node) * scale) / 2}px;
+								"
+								onmousedown={(event) => event.stopPropagation()}
+								onclick={() => toggleNodeSelection(node)}
+								onmouseenter={() => handleMouseEnter(node)}
+								onmouseleave={handleMouseLeave}
+							></div>
+						{/each}
 					{/if}
-				{/each}
-			{/each}
-		{/if}
-	</div>
+				</div>
 
-	<!-- Tooltip displayed when a region is hovered -->
-	{#if tooltipContent != null}
-		<div bind:this={tooltipEl} class="tooltip" style="left: {tooltipX}px; top: {tooltipY}px;">
-			<div class="title" style={`background-image: url('${base}/tooltip-header.png');`}>
-				{tooltipContent.name}
-			</div>
-			<div class="body">
-				{#each tooltipContent.stats as stat}
-					<p class="stat-line">{stat}</p>
-				{/each}
+				<!-- Tooltip displayed when a region is hovered -->
+				{#if tooltipNode != null}
+					<!-- Tooltip wrapper for absolute position -->
+					<div
+						bind:this={tooltipEl}
+						class="absolute w-[400px] pointer-events-none"
+						style="left: {tooltipX}px; top: {tooltipY}px;"
+					>
+						<TreeNodeTooltip node={tooltipNode} />
+					</div>
+				{/if}
 			</div>
 		</div>
-	{/if}
+	</div>
 </div>
 
-<style>
-	.top-bar {
-		position: relative;
-		padding: 10px;
-		background-color: #000;
-		color: #fff;
-			font-family: "微软雅黑", "Arial", sans-serif;
-	}
-
-	.top-bar h1 {
-		margin: 10px 0;
-		font-size: 24px;
-		text-align: center;
-	}
-
-	.top-bar p {
-		margin: 5px 0;
-		font-size: 16px;
-		text-align: center;
-	}
-
-	.github-text {
-		position: absolute;
-		top: 10px;
-		right: 10px;
-		text-wrap: balance;
-		font-family: "微软雅黑", "Arial", sans-serif;
-		text-align: right;
-	}
-
-	.github-link {
-		position: absolute;
-		top: 85px;
-		right: 20px;
-	}
-
-  .wechat-link {
-      position: absolute;
-      top: 85px;
-      right: 70px;
-  }
-  .wechat-link svg {
-      fill: #fff;
-      transition: fill 0.3s;
-  }
-
-  .wechat-link:hover svg {
-      fill: #FF4500; /* 这是橙色 */
-  }
-
-  .wechat-hover-image {
-      display: none;
-      position: absolute;
-      top: 0;
-      right: 0;
-      width: 358px;  /* 调整为图片的宽度 */
-      height: 485px; /* 调整为图片的高度 */
-      z-index: 1000;
-  }
-
-  .wechat-link:hover .wechat-hover-image {
-      display: block;
-  }
-
-
-  .github-link a {
-		color: #fff;
-		text-decoration: none;
-	}
-
-	.github-link svg {
-		fill: #fff;
-		transition: fill 0.3s;
-	}
-
-	.github-link svg:hover {
-		fill: #4078c0;
-	}
-
-	.search-bar {
-		text-align: center;
-		margin-bottom: 10px;
-		position: relative;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		gap: 10px;
-	}
-
-	.search-bar input {
-		padding: 5px;
-		font-size: 16px;
-	}
-
-	.search-bar span {
-		font-size: 16px;
-		cursor: pointer;
-		position: relative;
-	}
-
-	.filters {
-		display: inline-block;
-		margin-top: 10px;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-	}
-
-	.filters label {
-		margin-right: 10px;
-		font-size: 14px;
-	}
-
-	.image-container {
-		position: relative;
-		display: block;
-		overflow: hidden;
-		outline: none;
-		width: 100vw;
-		height: calc(100vh - 200px); /* Adjust based on top bar height */
-	}
-
-	.image-wrapper {
-		position: absolute;
-		top: 0;
-		left: 0;
-	}
-
+<style lang="postcss">
 	.small,
 	.notable,
 	.keystone {
@@ -750,9 +544,11 @@
 	.highlighted-notable {
 		border: 1px solid yellow;
 	}
+
 	.highlighted-small {
 		border: 1px solid yellow;
 	}
+
 	@keyframes glow {
 		0% {
 			box-shadow: 0 0 5px rgba(255, 0, 0, 0.5);
@@ -768,109 +564,5 @@
 	.search-result {
 		border: 3px solid rgba(255, 0, 0, 0.8);
 		animation: glow 2s infinite;
-	}
-
-	.tooltip {
-		position: absolute;
-		min-width: 300px;
-		max-width: 400px;
-		border-radius: 8px;
-		background-color: black; /* Slightly lighter background for the box */
-		box-shadow: 0 0 10px rgba(0, 0, 0, 0.8); /* Subtle shadow */
-		opacity: 0.9;
-		z-index: 1000; /* Ensure tooltip appears above other elements */
-		pointer-events: none; /* Allow clicks to pass through the tooltip */
-
-		/* Title style */
-		.title {
-			font-size: 1.5rem;
-			color: #f0e7e5; /* Light gold for the title text */
-			text-align: center;
-			margin-bottom: 15px;
-			background-size: cover; /* Ensure the image covers the entire title area */
-			background-position: center; /* Center the background image */
-			border-radius: 8px; /* Rounded corners */
-			padding: 10px 0; /* Space inside the title */
-			text-shadow: 0 0 5px rgba(255, 255, 255, 0.2); /* Subtle glow effect */
-			display: inline-block; /* Shrinks to fit the content */
-			width: 100%; /* Adjust to content size */
-		}
-
-		/* Body text style */
-		.body {
-			font-family: 'Fontin SmallCaps', sans-serif;
-			font-size: 16px;
-			line-height: 1.5; /* Improve readability */
-			color: #7d7aad; /* Light blue for body text */
-			margin-bottom: 15px; /* Spacing below body */
-			padding: 10px 20px;
-
-			.stat-line {
-				margin: 0 auto;
-			}
-		}
-	}
-
-	.info-display {
-		position: absolute;
-		top: 100%;
-		left: 50%;
-		transform: translateX(-50%);
-		background-color: rgba(0, 0, 0, 0.9);
-		border: 1px solid #444;
-		z-index: 100;
-		padding: 10px;
-		max-height: 300px;
-		overflow-y: auto;
-		width: 300px;
-		box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
-		color: #fff;
-		border-radius: 8px;
-	}
-
-	.info-display ul {
-		list-style: none;
-		padding: 0;
-		margin: 0;
-	}
-
-	.info-display li {
-		margin-bottom: 10px;
-	}
-
-	.info-display strong {
-		font-size: 16px;
-		color: #f0e7e5;
-	}
-
-	.info-display ul ul {
-		margin-top: 5px;
-		margin-left: 15px;
-	}
-
-	.info-display ul ul li {
-		font-size: 14px;
-		color: #7d7aad;
-	}
-
-	.info-display p {
-		color: #7d7aad;
-		font-size: 14px;
-	}
-
-	/* Style for the clear button */
-	.info-display button {
-		background-color: rgba(0, 0, 0, 0.9);
-		color: white;
-		border: 1px solid #444;
-		padding: 5px 10px;
-		margin-bottom: 10px;
-		cursor: pointer;
-		border-radius: 4px;
-		font-family: 'Fontin SmallCaps', sans-serif;
-	}
-
-	.info-display button:hover {
-		background-color: #c9302c;
 	}
 </style>
