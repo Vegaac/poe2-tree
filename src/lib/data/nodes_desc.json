@@ -4843,8 +4843,10 @@
   },
 
   "S370": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S371": {
     "name": "S371",
@@ -4859,8 +4861,10 @@
     "stats": []
   },
   "S374": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S375": {
     "name": "S375",
@@ -4903,8 +4907,10 @@
     "stats": []
   },
   "S385": {
-    "name": "Minion Attack and Cast Speed",
-    "stats": ["Minions have 4% increased Attack and Cast Speed"]
+    "name": "仆从攻击与施法速度",
+    "stats": [
+      "仆从的攻击与施法速度提高4%"
+    ]
   },
   "S386": {
     "name": "S386",
@@ -4915,9 +4921,9 @@
     "stats": []
   },
   "S388": {
-    "name": "Lightning Penetration",
+    "name": "闪电穿透",
     "stats": [
-      "Damage Penetrates 6% Lightning Resistance"
+      "伤害穿透6%的闪电抗性"
     ]
   },
   "S389": {
@@ -4953,9 +4959,9 @@
     "stats": []
   },
   "S397": {
-    "name": "Lightning Penetration",
+    "name": "闪电穿透",
     "stats": [
-      "Damage Penetrates 6% Lightning Resistance"
+      "伤害穿透6%的闪电抗性"
     ]
   },
   "S398": {
@@ -5007,26 +5013,34 @@
     "stats": []
   },
   "S410": {
-    "name": "Cold Penetration",
-    "stats": ["Damage Penetrates 4% Cold Resistance"]
+    "name": "冰霜穿透",
+    "stats": [
+      "伤害穿透4%的冰霜抗性"
+    ]
   },
   "S411": {
-    "name": "Cold Penetration",
+    "name": "冰霜穿透",
     "stats": [
-      "Damage Penetrates 6% Cold Resistance"
+      "伤害穿透6%的冰霜抗性"
     ]
   },
   "S412": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S413": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S414": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S415": {
     "name": "S415",
@@ -5081,24 +5095,30 @@
     "stats": []
   },
   "S428": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S429": {
     "name": "S429",
     "stats": []
   },
   "S430": {
-    "name": "Fire Penetration",
+    "name": "火焰穿透",
     "stats": ["Damage Penetrates 4% Fire Resistance"]
   },
   "S431": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S432": {
-    "name": "Damage against Ailments",
-    "stats": ["10% increased Damage with Hits against Enemies affected by Elemental Ailments"]
+    "name": "疾病伤害",
+    "stats": [
+      "对受元素异常状态影响的敌人的命中伤害增加10%"
+    ]
   },
   "S433": {
     "name": "S433",
@@ -5121,7 +5141,7 @@
     "stats": []
   },
   "S438": {
-    "name": "Fire Penetration",
+    "name": "火焰穿透",
     "stats": [
       "Damage Penetrates 6% Fire Resistance"
     ]
@@ -5159,8 +5179,10 @@
     "stats": []
   },
   "S447": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S448": {
     "name": "Damage against Ailments",
@@ -5195,8 +5217,10 @@
     "stats": []
   },
   "S456": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S457": {
     "name": "S457",
@@ -5215,8 +5239,10 @@
     "stats": []
   },
   "S461": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S462": {
     "name": "S462",
@@ -5259,16 +5285,20 @@
     "stats": []
   },
   "S472": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S473": {
     "name": "Spell Critical Damage",
     "stats": ["10% increased Critical Spell Damage Bonus"]
   },
   "S474": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S475": {
     "name": "S475",
@@ -5283,52 +5313,70 @@
     "stats": []
   },
   "S478": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S479": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S480": {
     "name": "S480",
     "stats": []
   },
   "S481": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S482": {
     "name": "S482",
     "stats": []
   },
   "S483": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S484": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S485": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S486": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S487": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S488": {
     "name": "S488",
     "stats": []
   },
   "S489": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S490": {
     "name": "S490",
@@ -5371,8 +5419,10 @@
     "stats": []
   },
   "S500": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S501": {
     "name": "S501",
@@ -5425,8 +5475,10 @@
     "stats": []
   },
   "S513": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S514": {
     "name": "S514",
@@ -5461,8 +5513,10 @@
     "stats": []
   },
   "S522": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S523": {
     "name": "S523",
@@ -5485,8 +5539,10 @@
     "stats": []
   },
   "S528": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S529": {
     "name": "S529",
@@ -5497,12 +5553,16 @@
     "stats": []
   },
   "S531": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S532": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S533": {
     "name": "S533",
@@ -5585,8 +5645,10 @@
     "stats": []
   },
   "S553": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S554": {
     "name": "S554",
@@ -5621,8 +5683,10 @@
     "stats": []
   },
   "S562": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S563": {
     "name": "S563",
@@ -5637,8 +5701,10 @@
     "stats": []
   },
   "S566": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S567": {
     "name": "S567",
@@ -5693,8 +5759,10 @@
     "stats": []
   },
   "S580": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S581": {
     "name": "S581",
@@ -5754,8 +5822,10 @@
     "stats": []
   },
   "S594": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S595": {
     "name": "S595",
@@ -5780,8 +5850,10 @@
     "stats": []
   },
   "S600": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S601": {
     "name": "S601",
@@ -5796,8 +5868,10 @@
     "stats": []
   },
   "S604": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S605": {
     "name": "S605",
@@ -5820,16 +5894,20 @@
     "stats": []
   },
   "S610": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S611": {
     "name": "S611",
     "stats": []
   },
   "S612": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S613": {
     "name": "S613",
@@ -5855,16 +5933,22 @@
     "stats": []
   },
   "S618": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S619": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S620": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S621": {
     "name": "S621",
@@ -5883,8 +5967,10 @@
     "stats": []
   },
   "S625": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S626": {
     "name": "S626",
@@ -5919,8 +6005,10 @@
     "stats": []
   },
   "S634": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S635": {
     "name": "S635",
@@ -5987,20 +6075,28 @@
     "stats": []
   },
   "S651": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S652": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S653": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S654": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S655": {
     "name": "S655",
@@ -6015,8 +6111,10 @@
     "stats": []
   },
   "S658": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S659": {
     "name": "S659",
@@ -6035,8 +6133,10 @@
     "stats": []
   },
   "S663": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S664": {
     "name": "S664",
@@ -6047,12 +6147,16 @@
     "stats": []
   },
   "S666": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S667": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S668": {
     "name": "S668",
@@ -6063,16 +6167,20 @@
     "stats": []
   },
   "S670": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S671": {
     "name": "S671",
     "stats": []
   },
   "S672": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S673": {
     "name": "Mana Regeneration",
@@ -6095,16 +6203,20 @@
     "stats": []
   },
   "S677": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S678": {
     "name": "Energy Shield Delay",
     "stats": ["10% faster start of Energy Shield recharge"]
   },
   "S679": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S680": {
     "name": "S680",
@@ -6117,8 +6229,10 @@
     ]
   },
   "S682": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S683": {
     "name": "S683",
@@ -6129,8 +6243,10 @@
     "stats": []
   },
   "S685": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S686": {
     "name": "Minion Life",
@@ -6153,8 +6269,10 @@
     "stats": []
   },
   "S691": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S692": {
     "name": "Spell Damage/Spell and Minion Damage",
@@ -6169,8 +6287,10 @@
     "stats": ["10% faster start of Energy Shield Recharge"]
   },
   "S694": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S695": {
     "name": "S695",
@@ -6193,8 +6313,10 @@
     "stats": []
   },
   "S700": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S701": {
     "name": "S701",
@@ -6209,12 +6331,16 @@
     "stats": []
   },
   "S704": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S705": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S706": {
     "name": "S706",
@@ -6243,24 +6369,30 @@
     "stats": ["+10 to maximum Energy Shield"]
   },
   "S711": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S712": {
     "name": "S712",
     "stats": []
   },
   "S713": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S714": {
     "name": "S714",
     "stats": []
   },
   "S715": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S716": {
     "name": "S716",
@@ -6287,8 +6419,10 @@
     "stats": []
   },
   "S722": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S723": {
     "name": "S723",
@@ -6307,8 +6441,10 @@
     "stats": []
   },
   "S727": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S728": {
     "name": "S728",
@@ -6327,12 +6463,16 @@
     "stats": []
   },
   "S732": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S733": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S734": {
     "name": "S734",
@@ -6415,16 +6555,20 @@
     "stats": []
   },
   "S753": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S754": {
     "name": "S754",
     "stats": []
   },
   "S755": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S756": {
     "name": "S756",
@@ -6503,8 +6647,10 @@
     "stats": []
   },
   "S774": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S775": {
     "name": "S775",
@@ -6523,8 +6669,10 @@
     "stats": []
   },
   "S779": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S780": {
     "name": "S780",
@@ -6547,8 +6695,10 @@
     "stats": []
   },
   "S785": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S786": {
     "name": "S786",
@@ -6563,8 +6713,10 @@
     "stats": []
   },
   "S789": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S790": {
     "name": "S790",
@@ -6683,16 +6835,20 @@
     "stats": []
   },
   "S818": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S819": {
     "name": "S819",
     "stats": []
   },
   "S820": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S821": {
     "name": "S821",
@@ -6719,12 +6875,16 @@
     "stats": []
   },
   "S827": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S828": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S829": {
     "name": "S829",
@@ -6765,8 +6925,10 @@
     "stats": []
   },
   "S838": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S839": {
     "name": "Quarterstaff Speed",
@@ -6791,8 +6953,10 @@
     "stats": []
   },
   "S844": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S845": {
     "name": "Skill Speed",
@@ -6902,8 +7066,10 @@
     "stats": []
   },
   "S869": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S870": {
     "name": "S870",
@@ -6923,8 +7089,10 @@
     ]
   },
   "S873": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S874": {
     "name": "S874",
@@ -6935,8 +7103,10 @@
     "stats": []
   },
   "S876": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S877": {
     "name": "Attack Damage",
@@ -6953,20 +7123,26 @@
     "stats": []
   },
   "S880": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S881": {
     "name": "S881",
     "stats": []
   },
   "S882": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S883": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S884": {
     "name": "S884",
@@ -6985,8 +7161,10 @@
     "stats": []
   },
   "S888": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S889": {
     "name": "S889",
@@ -6997,8 +7175,10 @@
     "stats": []
   },
   "S891": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S892": {
     "name": "S892",
@@ -7065,12 +7245,16 @@
     "stats": []
   },
   "S907": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S908": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S909": {
     "name": "S909",
@@ -7123,12 +7307,16 @@
     "stats": []
   },
   "S921": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S922": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S923": {
     "name": "S923",
@@ -7163,8 +7351,10 @@
     "stats": []
   },
   "S931": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S932": {
     "name": "S932",
@@ -7195,76 +7385,112 @@
     "stats": []
   },
   "S939": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S940": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S941": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S942": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S943": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S944": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S945": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S946": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S947": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S948": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S949": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S950": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S951": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S952": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S953": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S954": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S955": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S956": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S957": {
     "name": "S957",
@@ -7289,8 +7515,10 @@
     "stats": []
   },
   "S962": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S963": {
     "name": "S963",
@@ -7305,8 +7533,10 @@
     "stats": []
   },
   "S966": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S967": {
     "name": "S967",
@@ -7345,8 +7575,10 @@
     "stats": []
   },
   "S976": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S977": {
     "name": "S977",
@@ -7377,32 +7609,44 @@
     "stats": []
   },
   "S984": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S985": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S986": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S987": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S988": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S989": {
     "name": "S989",
     "stats": []
   },
   "S990": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S991": {
     "name": "S991",
@@ -7421,8 +7665,10 @@
     "stats": []
   },
   "S995": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S996": {
     "name": "S996",
@@ -7457,16 +7703,20 @@
     "stats": []
   },
   "S1004": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1005": {
     "name": "S1005",
     "stats": []
   },
   "S1006": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1007": {
     "name": "S1007",
@@ -7477,8 +7727,10 @@
     "stats": []
   },
   "S1009": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1010": {
     "name": "S1010",
@@ -7553,16 +7805,20 @@
     "stats": []
   },
   "S1028": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1029": {
     "name": "S1029",
     "stats": []
   },
   "S1030": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1031": {
     "name": "S1031",
@@ -7591,8 +7847,10 @@
     "stats": []
   },
   "S1037": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1038": {
     "name": "S1038",
@@ -7689,8 +7947,10 @@
     "stats": []
   },
   "S1061": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1062": {
     "name": "S1062",
@@ -7701,8 +7961,10 @@
     "stats": []
   },
   "S1064": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1065": {
     "name": "S1065",
@@ -7865,8 +8127,10 @@
     "stats": ["2% increased Movement Speed"]
   },
   "S1104": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1105": {
     "name": "S1105",
@@ -7881,8 +8145,10 @@
     "stats": []
   },
   "S1108": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1109": {
     "name": "S1109",
@@ -7897,8 +8163,10 @@
     "stats": []
   },
   "S1112": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1113": {
     "name": "S1113",
@@ -7962,8 +8230,10 @@
     "stats": []
   },
   "S1127": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1128": {
     "name": "S1128",
@@ -7982,8 +8252,10 @@
     "stats": ["8% increased Stun Build","8% increased Freeze Buildup"]
   },
   "S1132": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1133": {
     "name": "S1133",
@@ -8025,8 +8297,10 @@
     ]
   },
   "S1142": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1143": {
     "name": "S1143",
@@ -8045,16 +8319,20 @@
     "stats": []
   },
   "S1147": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1148": {
     "name": "Immobilise Buildup",
     "stats": ["8% increased Stun Buildup","8% increased Freeze Buildup"]
   },
   "S1149": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1150": {
     "name": "S1150",
@@ -8065,8 +8343,10 @@
     "stats": []
   },
   "S1152": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1153": {
     "name": "S1153",
@@ -8156,16 +8436,20 @@
     "stats": []
   },
   "S1174": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1175": {
     "name": "S1175",
     "stats": []
   },
   "S1176": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1177": {
     "name": "S1177",
@@ -8182,24 +8466,32 @@
     ]
   },
   "S1180": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1181": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1182": {
     "name": "S1182",
     "stats": []
   },
   "S1183": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1184": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1185": {
     "name": "Attack Speed",
@@ -8208,16 +8500,20 @@
     ]
   },
   "S1186": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1187": {
     "name": "S1187",
     "stats": []
   },
   "S1188": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1189": {
     "name": "S1189",
@@ -8252,8 +8548,10 @@
     "stats": []
   },
   "S1197": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1198": {
     "name": "S1198",
@@ -8268,12 +8566,16 @@
     "stats": []
   },
   "S1201": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1202": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1203": {
     "name": "S1203",
@@ -8322,8 +8624,10 @@
     "stats": []
   },
   "S1214": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1215": {
     "name": "S1215",
@@ -8380,8 +8684,10 @@
     "stats": []
   },
   "S1228": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1229": {
     "name": "S1229",
@@ -8426,28 +8732,36 @@
     ]
   },
   "S1239": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1240": {
     "name": "S1240",
     "stats": []
   },
   "S1241": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1242": {
     "name": "S1242",
     "stats": []
   },
   "S1243": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1244": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1245": {
     "name": "S1245",
@@ -8458,8 +8772,10 @@
     "stats": []
   },
   "S1247": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1248": {
     "name": "S1248",
@@ -8486,16 +8802,22 @@
     "stats": []
   },
   "S1254": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1255": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1256": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1257": {
     "name": "S1257",
@@ -8506,8 +8828,10 @@
     "stats": []
   },
   "S1259": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1260": {
     "name": "S1260",
@@ -8522,8 +8846,10 @@
     "stats": []
   },
   "S1263": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1264": {
     "name": "S1264",
@@ -8562,12 +8888,16 @@
     "stats": []
   },
   "S1273": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1274": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1275": {
     "name": "S1275",
@@ -8604,8 +8934,10 @@
     "stats": []
   },
   "S1283": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1284": {
     "name": "S1284",
@@ -8624,8 +8956,10 @@
     "stats": []
   },
   "S1288": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1289": {
     "name": "S1289",
@@ -8656,8 +8990,10 @@
     "stats": []
   },
   "S1296": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1297": {
     "name": "S1297",
@@ -8700,16 +9036,20 @@
     "stats": []
   },
   "S1306": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1307": {
     "name": "S1307",
     "stats": []
   },
   "S1308": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1309": {
     "name": "S1309",
@@ -8720,8 +9060,10 @@
     "stats": []
   },
   "S1311": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1312": {
     "name": "S1312",
@@ -8776,8 +9118,10 @@
     "stats": []
   },
   "S1324": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1325": {
     "name": "S1325",
@@ -8806,8 +9150,10 @@
     ]
   },
   "S1331": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1332": {
     "name": "S1332",
@@ -8850,12 +9196,16 @@
     ]
   },
   "S1341": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1342": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1343": {
     "name": "S1343",
@@ -8912,8 +9262,10 @@
     ]
   },
   "S1355": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1356": {
     "name": "S1356",
@@ -8924,8 +9276,10 @@
     "stats": []
   },
   "S1358": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1359": {
     "name": "S1359",
@@ -8940,8 +9294,10 @@
     "stats": []
   },
   "S1362": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1363": {
     "name": "S1363",
@@ -8960,8 +9316,10 @@
     "stats": []
   },
   "S1367": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1368": {
     "name": "S1368",
@@ -8972,8 +9330,10 @@
     "stats": []
   },
   "S1370": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1371": {
     "name": "S1371",
@@ -9010,8 +9370,10 @@
     "stats": []
   },
   "S1379": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1380": {
     "name": "Projectile Damage",
@@ -9030,8 +9392,10 @@
     "stats": []
   },
   "S1383": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1384": {
     "name": "S1384",
@@ -9068,8 +9432,10 @@
     "stats": []
   },
   "S1392": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1393": {
     "name": "S1393",
@@ -9092,8 +9458,10 @@
     "stats": []
   },
   "S1398": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1399": {
     "name": "S1399",
@@ -9118,8 +9486,10 @@
     "stats": []
   },
   "S1404": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1405": {
     "name": "S1405",
@@ -9138,16 +9508,22 @@
     "stats": []
   },
   "S1409": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1410": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1411": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1412": {
     "name": "S1412",
@@ -9170,16 +9546,20 @@
     "stats": []
   },
   "S1417": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1418": {
     "name": "S1418",
     "stats": []
   },
   "S1419": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1420": {
     "name": "S1420",
@@ -9228,20 +9608,28 @@
     "stats": []
   },
   "S1431": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1432": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1433": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1434": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1435": {
     "name": "S1435",
@@ -9332,12 +9720,16 @@
     "stats": []
   },
   "S1457": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1458": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1459": {
     "name": "S1459",
@@ -9396,8 +9788,10 @@
     "stats": []
   },
   "S1473": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1474": {
     "name": "S1474",
@@ -9458,8 +9852,10 @@
     "stats": []
   },
   "S1488": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1489": {
     "name": "S1489",
@@ -9488,8 +9884,10 @@
     "stats": []
   },
   "S1495": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1496": {
     "name": "S1496",
@@ -9516,8 +9914,10 @@
     "stats": []
   },
   "S1502": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1503": {
     "name": "Two Handed Damage",
@@ -9554,8 +9954,10 @@
     "stats": []
   },
   "S1511": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1512": {
     "name": "S1512",
@@ -9646,8 +10048,10 @@
     "stats": []
   },
   "S1534": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1535": {
     "name": "S1535",
@@ -9742,8 +10146,10 @@
     "stats": []
   },
   "S1558": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1559": {
     "name": "S1559",
@@ -9766,8 +10172,10 @@
     "stats": []
   },
   "S1564": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1565": {
     "name": "S1565",
@@ -9784,8 +10192,10 @@
     ]
   },
   "S1568": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1569": {
     "name": "S1569",
@@ -9796,12 +10206,16 @@
     "stats": []
   },
   "S1571": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1572": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1573": {
     "name": "S1573",
@@ -9872,16 +10286,20 @@
     "stats": []
   },
   "S1590": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1591": {
     "name": "S1591",
     "stats": []
   },
   "S1592": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1593": {
     "name": "S1593",
@@ -9994,8 +10412,10 @@
     "stats": []
   },
   "S1620": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1621": {
     "name": "S1621",
@@ -10034,8 +10454,10 @@
     "stats": []
   },
   "S1630": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1631": {
     "name": "S1631",
@@ -10050,8 +10472,10 @@
     "stats": []
   },
   "S1634": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1635": {
     "name": "S1635",
@@ -10094,8 +10518,10 @@
     "stats": []
   },
   "S1645": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1646": {
     "name": "S1646",
@@ -10106,12 +10532,16 @@
     "stats": []
   },
   "S1648": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1649": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1650": {
     "name": "S1650",
@@ -10238,12 +10668,16 @@
     "stats": []
   },
   "S1681": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1682": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1683": {
     "name": "S1683",
@@ -10270,8 +10704,10 @@
     "stats": []
   },
   "S1689": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1690": {
     "name": "S1690",
@@ -10306,8 +10742,10 @@
     "stats": []
   },
   "S1698": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1699": {
     "name": "S1699",
@@ -10322,8 +10760,10 @@
     "stats": []
   },
   "S1702": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1703": {
     "name": "S1703",
@@ -10342,8 +10782,10 @@
     "stats": []
   },
   "S1707": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1708": {
     "name": "S1708",
@@ -10366,8 +10808,10 @@
     "stats": []
   },
   "S1713": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1714": {
     "name": "S1714",
@@ -10450,24 +10894,34 @@
     "stats": []
   },
   "S1734": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1735": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1736": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1737": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1738": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1739": {
     "name": "S1739",
@@ -10482,16 +10936,20 @@
     "stats": []
   },
   "S1742": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1743": {
     "name": "Stun Buildup",
     "stats": ["15% increased Stun Buildup"]
   },
   "S1744": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1745": {
     "name": "S1745",
@@ -10510,8 +10968,10 @@
     "stats": []
   },
   "S1749": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1750": {
     "name": "S1750",
@@ -10614,8 +11074,10 @@
     "stats": []
   },
   "S1775": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1776": {
     "name": "S1776",
@@ -10666,8 +11128,10 @@
     "stats": []
   },
   "S1788": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1789": {
     "name": "S1789",
@@ -10726,8 +11190,10 @@
     "stats": []
   },
   "S1803": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1804": {
     "name": "S1804",
@@ -10816,8 +11282,10 @@
     ]
   },
   "S1825": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1826": {
     "name": "S1826",
@@ -10866,12 +11334,16 @@
     "stats": []
   },
   "S1837": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1838": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1839": {
     "name": "S1839",
@@ -10896,8 +11368,10 @@
     ]
   },
   "S1844": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1845": {
     "name": "S1845",
@@ -10940,8 +11414,10 @@
     "stats": []
   },
   "S1855": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1856": {
     "name": "S1856",
@@ -10988,20 +11464,28 @@
     "stats": []
   },
   "S1867": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1868": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1869": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1870": {
-    "name": "Attribute",
-    "stats": ["+5 to any Attribute"]
+    "name": "属性",
+    "stats": [
+      "任一属性+5"
+    ]
   },
   "S1871": {
     "name": "S1871",

@@ -320,36 +320,36 @@
 			<!-- Toggleable -->
 			<div class="space-y-4">
 				<div>
-					<b class="block underline underline-offset-2">Highlight:</b>
+					<b class="block underline underline-offset-2">筛选:</b>
 					<div class="flex flex-row gap-2 flex-wrap">
 						<label class="whitespace-nowrap">
 							<input type="checkbox" bind:checked={highlightKeystones} />
-							<span>Keystones</span>
+							<span>基石天赋</span>
 						</label>
 						<label class="whitespace-nowrap">
 							<input type="checkbox" bind:checked={highlightNotables} />
-							<span>Notables</span>
+							<span>大型天赋</span>
 						</label>
 						<label class="whitespace-nowrap">
 							<input type="checkbox" bind:checked={highlightSmalls} />
-							<span>Smalls</span>
+							<span>小型天赋</span>
 						</label>
 					</div>
 				</div>
 				<div>
-					<b class="block underline underline-offset-2">Hide:</b>
+					<b class="block underline underline-offset-2">过滤:</b>
 					<div class="flex flex-row gap-2 flex-wrap">
 						<label class="whitespace-nowrap">
 							<input type="checkbox" bind:checked={hideUnidentified} />
-							<span>Unidentified</span>
+							<span>未收录</span>
 						</label>
 						<label class="whitespace-nowrap">
 							<input type="checkbox" bind:checked={hideUnselected} />
-							<span>Unselected</span>
+							<span>未选择</span>
 						</label>
 						<label class="whitespace-nowrap">
 							<input type="checkbox" bind:checked={hideSmall} />
-							<span>Smalls</span>
+							<span>小型天赋</span>
 						</label>
 					</div>
 				</div>
@@ -360,7 +360,7 @@
 				<input
 					class="block rounded px-2 text-black"
 					type="text"
-					placeholder="Search..."
+					placeholder="搜索..."
 					bind:value={searchTerm}
 				/>
 				<span>Found: {searchResults.length}</span>
