@@ -1,5 +1,4 @@
 <script lang="ts">
-	let isHovering = false;
 </script>
 
 <div class="flex flex-row gap-4 items-center w-full bg-[#1a1a1a] p-2 h-16">
@@ -8,7 +7,7 @@
 		<h1 class="text-3xl">PoE2 Skill Tree Preview</h1>
 	</div>
 	<!-- Middle Part -->
-	<nav class="flex flex-row items-center gap-4 flex-1">
+	<nav class="hidden md:flex flex-row items-center gap-4 flex-1">
 		<!-- Something here? -->
 	</nav>
 	<!-- GitHub -->
