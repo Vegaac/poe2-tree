@@ -451,7 +451,7 @@
 				<!-- Toggleable -->
 				<div class="space-y-4">
 					<div>
-						<b class="block underline underline-offset-2">Ascendancy:</b>
+						<b class="block underline underline-offset-2">升华:</b>
 						<div class="flex flex-row flex-wrap text-black">
 							<select
 								class="w-full px-1 h-6"
@@ -459,52 +459,52 @@
 								id="asc-select"
 								bind:value={selectedAscendancy}
 							>
-								<option value="gemling">Mercenary - Gemling Legionnaire</option>
-								<option value="witchhunter">Mercenary - Witchhunter</option>
-								<option value="acolyte">Monk - Acolyte of Chayula</option>
-								<option value="invoker">Monk - Invoker</option>
-								<option value="chronomancer">Sorceress - Chronomancer</option>
-								<option value="stormweaver">Sorceress - Stormweaver</option>
-								<option value="deadeye">Ranger - Deadeye</option>
-								<option value="pathfinder">Ranger - Pathfinder</option>
-								<option value="titan">Warrior - Titan</option>
-								<option value="warbringer">Warrior - Warbringer</option>
-								<option value="bloodmage">Witch - Bloodmage</option>
-								<option value="infernalist">Witch - Infernalist</option>
+								<option value="gemling">佣兵 - 古灵使徒</option>
+								<option value="witchhunter">佣兵 - 猎巫人</option>
+								<option value="acolyte">武僧 - 夏屋拉侍僧</option>
+								<option value="invoker">武僧 - 祈求者</option>
+								<option value="chronomancer">法师 - 风暴呼唤者</option>
+								<option value="stormweaver">法师 - 时空巫师</option>
+								<option value="deadeye">游侠 - 锐眼</option>
+								<option value="pathfinder">游侠 - 追猎者</option>
+								<option value="titan">战士 - 泰坦</option>
+								<option value="warbringer">战士 - 战争使者</option>
+								<option value="bloodmage">女巫 - 血法师</option>
+								<option value="infernalist">女巫 - 狱术师</option>
 							</select>
 						</div>
 					</div>
 					<div>
-						<b class="block underline underline-offset-2">Highlight:</b>
+						<b class="block underline underline-offset-2">筛选:</b>
 						<div class="flex flex-row gap-2 flex-wrap">
 							<label class="whitespace-nowrap">
 								<input type="checkbox" bind:checked={highlightKeystones} />
-								<span>Keystones</span>
+								<span>基石天赋</span>
 							</label>
 							<label class="whitespace-nowrap">
 								<input type="checkbox" bind:checked={highlightNotables} />
-								<span>Notables</span>
+								<span>大型天赋</span>
 							</label>
 							<label class="whitespace-nowrap">
 								<input type="checkbox" bind:checked={highlightSmalls} />
-								<span>Smalls</span>
+								<span>小型天赋</span>
 							</label>
 						</div>
 					</div>
 					<div>
-						<b class="block underline underline-offset-2">Hide:</b>
+						<b class="block underline underline-offset-2">过滤:</b>
 						<div class="flex flex-row gap-2 flex-wrap">
 							<label class="whitespace-nowrap">
 								<input type="checkbox" bind:checked={hideUnidentified} />
-								<span>Unidentified</span>
+								<span>未收录</span>
 							</label>
 							<label class="whitespace-nowrap">
 								<input type="checkbox" bind:checked={hideUnselected} />
-								<span>Unselected</span>
+								<span>未选择</span>
 							</label>
 							<label class="whitespace-nowrap">
 								<input type="checkbox" bind:checked={hideSmall} />
-								<span>Smalls</span>
+								<span>小型天赋</span>
 							</label>
 						</div>
 					</div>
